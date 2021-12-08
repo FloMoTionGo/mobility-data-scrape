@@ -15,7 +15,7 @@ jobs:
     - name: Fetch latest data
       run: |-
         # curl https://www.fire.ca.gov/umbraco/Api/IncidentApi/GetIncidents | jq . > incidents.json
-        curl -X 'GET' "https://platform.tier-services.io/v1/vehicle?lat=52.506731&lng=13.494930&radius=200" -H 'X-Api-Key: bpEUTJEBTf74oGRWxaIcW7aeZMzDDODe1yBoSxi2' -H 'accept: application/json' | jq . > $(date +"%y%m%d%H")_TIER_availability.json
+        curl -X 'GET' "https://platform.tier-services.io/v1/vehicle?lat=52.509434&lng=13.497544&radius=200" -H 'X-Api-Key: bpEUTJEBTf74oGRWxaIcW7aeZMzDDODe1yBoSxi2' -H 'accept: application/json' | jq . > $(date +"%y%m%d%H")_TIER_availability.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
