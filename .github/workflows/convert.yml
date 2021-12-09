@@ -24,9 +24,10 @@ jobs:
         #json2csv -i JSON_source/$(date +"%y%m%d")*_TIER*.json >> CSV_per_day/$(date +"%y%m%d")_TIER.csv
         #json2csv -i JSON_source/$(date +"%y%m%d")*_vbb*.json >> CSV_per_day/$(date +"%y%m%d")_VBB.csv
         ###
-        jq .[]."tripId" JSON_source/$(date +"%y%m%d")*_vbb_arrivals.json | awk '{for(i=1;i<=NF;i++)a[i][NR]=$i}END{for(i in a)for(j in a[i])printf"%s"(j==NR?"\n":FS),a[i][j]}' FS=, >> _CSV_per_day/$(date +"%y%m%d")_VBB.csv
-        jq .[]."when" JSON_source/$(date +"%y%m%d")*_vbb_arrivals.json | awk '{for(i=1;i<=NF;i++)a[i][NR]=$i}END{for(i in a)for(j in a[i])printf"%s"(j==NR?"\n":FS),a[i][j]}' FS=, >> _CSV_per_day/$(date +"%y%m%d")_VBB.csv
-        awk '{for(i=1;i<=NF;i++)a[i][NR]=$i}END{for(i in a)for(j in a[i])printf"%s"(j==NR?"\n":FS),a[i][j]}' FS=, _CSV_per_day/$(date +"%y%m%d")_VBB.csv > CSV_per_day/$(date +"%y%m%d")_VBB.csv
+        jq .[]."tripId" JSON_source/$(date +"%y%m%d")*_vbb_arrivals.json | awk '{for(i=1;i<=NF;i++)a[i][NR]=$i}END{for(i in a)for(j in a[i])printf"%s"(j==NR?"\n":FS),a[i][j]}' FS=, >> CSV_per_day/_$(date +"%y%m%d")_VBB.csv
+        jq .[]."when" JSON_source/$(date +"%y%m%d")*_vbb_arrivals.json | awk '{for(i=1;i<=NF;i++)a[i][NR]=$i}END{for(i in a)for(j in a[i])printf"%s"(j==NR?"\n":FS),a[i][j]}' FS=, >> CSV_per_day/_$(date +"%y%m%d")_VBB.csv
+        awk '{for(i=1;i<=NF;i++)a[i][NR]=$i}END{for(i in a)for(j in a[i])printf"%s"(j==NR?"\n":FS),a[i][j]}' FS=, CSV_per_day/_$(date +"%y%m%d")_VBB.csv > CSV_per_day/$(date +"%y%m%d")_VBB.csv
+        rm _$(date +"%y%m%d")_VBB.csv
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
