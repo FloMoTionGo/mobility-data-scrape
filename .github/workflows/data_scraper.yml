@@ -4,7 +4,8 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '32 6,7,8,9,15,16,17,18 * * *'
+    #- cron:  '32 6,7,8,9,15,16,17,18 * * *'
+    - cron:  '* * 29 2 *' # basically never runs!
 
 jobs:
   scheduled:
