@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        curl -X 'GET' 'https://v5.vbb.transport.rest/stops/900160004/arrivals?duration=10&linesOfStops=false&remarks=true&language=en'\
+        curl 'https://v5.bvg.transport.rest/stops/900000160004/arrivals?duration=10&linesOfStops=false&remarks=true&language=en' \
         -H 'accept: application/json' \
         | jq . > JSON_source/$(date +"%y%m%d%H")_vbb_arrivals.json
         curl -X 'GET' "https://platform.tier-services.io/v1/vehicle?lat=52.509434&lng=13.497544&radius=200" \
