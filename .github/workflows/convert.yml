@@ -6,8 +6,8 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    #- cron:  '03 23 * * *'
-    - cron:  '* * 29 2 *'
+    - cron:  '03 23 * * *'
+    #- cron:  '* * 29 2 *'
 
 jobs:
   scheduled:
@@ -23,7 +23,7 @@ jobs:
         jq '.[] | [ .tripId, .when, .stop.location.latitude, .stop.location.longitude ] | @csv' JSON_source/${query_date}*${service}*.json > CSV_per_day/${query_date}${service}.csv
         service=TIER
         touch CSV_per_day/${query_date}${service}.csv
-        jq '.data[] | [ .attributes.lastLocationUpdate, .attributes.vehicleType, .attributes.lat, .attributes.lng  ] | @csv' JSON_source/$query_date*$service*.json > CSV_per_day/${query_date}${service}.csv
+        jq '.data[] | [ .attributes.lastLocationUpdate, .attributes.vehicleType, .attributes.lat, .attributes.lng  ] | @csv' JSON_source/${query_date}*${service}*.json > CSV_per_day/${query_date}${service}.csv
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
