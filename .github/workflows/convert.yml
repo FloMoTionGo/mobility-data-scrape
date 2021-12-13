@@ -17,10 +17,12 @@ jobs:
       #uses: actions/checkout@v2
     - name: Convert latest vbb & TIER data
       run: |-
-        query_date=$(date -d "Today -4 days" +"%y%m%d")
+        query_date=$(date +"%y%m%d")
         service=vbb
+        touch CSV_per_day/${query_date}${service}.csv
         jq '.[] | [ .tripId, .when, .stop.location.latitude, .stop.location.longitude ] | @csv' JSON_source/${query_date}*${service}*.json > CSV_per_day/${query_date}${service}.csv
         service=TIER
+        touch CSV_per_day/${query_date}${service}.csv
         jq '.data[] | [ .attributes.lastLocationUpdate, .attributes.vehicleType, .attributes.lat, .attributes.lng  ] | @csv' JSON_source/$query_date*$service*.json > CSV_per_day/${query_date}${service}.csv
     - name: Commit and push if it changed
       run: |-
