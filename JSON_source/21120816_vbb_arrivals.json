@@ -1,6 +1,186 @@
 [
   {
-    "tripId": "1|16283|3|86|8122021",
+    "tripId": "1|38244|26|86|8122021",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": true,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      }
+    },
+    "when": "2021-12-08T15:31:00+01:00",
+    "plannedWhen": "2021-12-08T15:31:00+01:00",
+    "delay": null,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "direction": null,
+    "provenance": "S Wartenberg",
+    "line": {
+      "type": "line",
+      "id": "s75",
+      "fahrtNr": "26980",
+      "name": "S75",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 75,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "barrier-free"
+      },
+      {
+        "type": "hint",
+        "code": "FB",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "144719",
+        "type": "warning",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          0
+        ],
+        "validFrom": "2021-11-24T00:00:00+01:00",
+        "validUntil": "2022-12-31T00:00:00+01:00",
+        "modified": "2021-12-06T15:29:37+01:00"
+      }
+    ]
+  },
+  {
+    "tripId": "1|44867|4|86|8122021",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": true,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      }
+    },
+    "when": "2021-12-08T15:32:00+01:00",
+    "plannedWhen": "2021-12-08T15:32:00+01:00",
+    "delay": null,
+    "platform": "20",
+    "plannedPlatform": "20",
+    "direction": null,
+    "provenance": "Werneuchen, Bhf",
+    "line": {
+      "type": "line",
+      "id": "rb25",
+      "fahrtNr": "791",
+      "name": "RB25",
+      "public": true,
+      "adminCode": "NEB",
+      "productName": "RB",
+      "mode": "train",
+      "product": "regional",
+      "operator": {
+        "type": "operator",
+        "id": "neb-betriebsgesellschaft-mbh",
+        "name": "NEB Betriebsgesellschaft mbH"
+      },
+      "symbol": "RB",
+      "nr": 25,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "barrier-free"
+      },
+      {
+        "type": "hint",
+        "code": "FB",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "144719",
+        "type": "warning",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          0
+        ],
+        "validFrom": "2021-11-24T00:00:00+01:00",
+        "validUntil": "2022-12-31T00:00:00+01:00",
+        "modified": "2021-12-06T15:29:37+01:00"
+      }
+    ]
+  },
+  {
+    "tripId": "1|16870|2|86|8122021",
     "stop": {
       "type": "stop",
       "id": "900000160702",
@@ -21,9 +201,9 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T17:55:00+01:00",
-    "plannedWhen": "2021-12-08T17:49:00+01:00",
-    "delay": 360,
+    "when": "2021-12-08T15:33:00+01:00",
+    "plannedWhen": "2021-12-08T15:33:00+01:00",
+    "delay": null,
     "platform": null,
     "plannedPlatform": null,
     "direction": null,
@@ -31,7 +211,7 @@
     "line": {
       "type": "line",
       "id": "240",
-      "fahrtNr": "33171",
+      "fahrtNr": "26931",
       "name": "240",
       "public": true,
       "adminCode": "BVB",
@@ -52,19 +232,14 @@
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (Einbecker Str./Rosenfelder Str. (Berlin) - S+U Lichtenberg (Berlin) [Bus])"
-      },
-      {
-        "type": "hint",
         "code": "bf",
-        "text": "barrierefrei"
+        "text": "barrier-free"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
@@ -87,15 +262,190 @@
         "validUntil": "2022-12-31T00:00:00+01:00",
         "modified": "2021-12-06T15:29:37+01:00"
       }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.50869,
-      "longitude": 13.497402
-    }
+    ]
   },
   {
-    "tripId": "1|19057|14|86|8122021",
+    "tripId": "1|37742|2|86|8122021",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": true,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      }
+    },
+    "when": "2021-12-08T15:33:00+01:00",
+    "plannedWhen": "2021-12-08T15:33:00+01:00",
+    "delay": null,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "direction": null,
+    "provenance": "S Strausberg Nord",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "26027",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "barrier-free"
+      },
+      {
+        "type": "hint",
+        "code": "FB",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "144719",
+        "type": "warning",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          0
+        ],
+        "validFrom": "2021-11-24T00:00:00+01:00",
+        "validUntil": "2022-12-31T00:00:00+01:00",
+        "modified": "2021-12-06T15:29:37+01:00"
+      }
+    ]
+  },
+  {
+    "tripId": "1|38254|19|86|8122021",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": true,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      }
+    },
+    "when": "2021-12-08T15:33:00+01:00",
+    "plannedWhen": "2021-12-08T15:33:00+01:00",
+    "delay": null,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "direction": null,
+    "provenance": "S+U Warschauer Str.",
+    "line": {
+      "type": "line",
+      "id": "s75",
+      "fahrtNr": "26903",
+      "name": "S75",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 75,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "barrier-free"
+      },
+      {
+        "type": "hint",
+        "code": "FB",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "144719",
+        "type": "warning",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          0
+        ],
+        "validFrom": "2021-11-24T00:00:00+01:00",
+        "validUntil": "2022-12-31T00:00:00+01:00",
+        "modified": "2021-12-06T15:29:37+01:00"
+      }
+    ]
+  },
+  {
+    "tripId": "1|19603|0|86|8122021",
     "stop": {
       "type": "stop",
       "id": "900000160702",
@@ -116,9 +466,9 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T17:55:00+01:00",
-    "plannedWhen": "2021-12-08T17:55:00+01:00",
-    "delay": 0,
+    "when": "2021-12-08T15:35:00+01:00",
+    "plannedWhen": "2021-12-08T15:35:00+01:00",
+    "delay": null,
     "platform": null,
     "plannedPlatform": null,
     "direction": null,
@@ -126,7 +476,7 @@
     "line": {
       "type": "line",
       "id": "296",
-      "fahrtNr": "38724",
+      "fahrtNr": "31363",
       "name": "296",
       "public": true,
       "adminCode": "BVB",
@@ -147,19 +497,14 @@
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (Einbecker Str./Rosenfelder Str. (Berlin) - S+U Lichtenberg (Berlin) [Bus])"
-      },
-      {
-        "type": "hint",
         "code": "bf",
-        "text": "barrierefrei"
+        "text": "barrier-free"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
@@ -185,7 +530,7 @@
     ]
   },
   {
-    "tripId": "1|34433|11|86|8122021",
+    "tripId": "1|35048|1|86|8122021",
     "stop": {
       "type": "stop",
       "id": "900000160701",
@@ -206,9 +551,9 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T17:55:00+01:00",
-    "plannedWhen": "2021-12-08T17:55:00+01:00",
-    "delay": 0,
+    "when": "2021-12-08T15:35:00+01:00",
+    "plannedWhen": "2021-12-08T15:35:00+01:00",
+    "delay": null,
     "platform": "1",
     "plannedPlatform": "1",
     "direction": null,
@@ -216,7 +561,7 @@
     "line": {
       "type": "line",
       "id": "u5",
-      "fahrtNr": "17887",
+      "fahrtNr": "15797",
       "name": "U5",
       "public": true,
       "adminCode": "BVU",
@@ -232,33 +577,24 @@
       "nr": 5,
       "metro": false,
       "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#805233"
-      }
+      "night": false
     },
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (U Friedrichsfelde (Berlin) - S+U Lichtenberg (Berlin) [U5])"
-      },
-      {
-        "type": "hint",
         "code": "bf",
-        "text": "barrierefrei"
+        "text": "barrier-free"
       },
       {
         "type": "hint",
         "code": "FB",
-        "text": "Fahrradmitnahme möglich"
+        "text": "Bicycle conveyance"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
@@ -281,15 +617,10 @@
         "validUntil": "2022-12-31T00:00:00+01:00",
         "modified": "2021-12-06T15:29:37+01:00"
       }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.511899,
-      "longitude": 13.494157
-    }
+    ]
   },
   {
-    "tripId": "1|34524|12|86|8122021",
+    "tripId": "1|35145|2|86|8122021",
     "stop": {
       "type": "stop",
       "id": "900000160701",
@@ -310,9 +641,9 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T17:56:00+01:00",
-    "plannedWhen": "2021-12-08T17:55:00+01:00",
-    "delay": 60,
+    "when": "2021-12-08T15:35:00+01:00",
+    "plannedWhen": "2021-12-08T15:35:00+01:00",
+    "delay": null,
     "platform": "2",
     "plannedPlatform": "2",
     "direction": null,
@@ -320,7 +651,7 @@
     "line": {
       "type": "line",
       "id": "u5",
-      "fahrtNr": "17502",
+      "fahrtNr": "15398",
       "name": "U5",
       "public": true,
       "adminCode": "BVU",
@@ -336,33 +667,24 @@
       "nr": 5,
       "metro": false,
       "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#805233"
-      }
+      "night": false
     },
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (U Magdalenenstr. (Berlin) - S+U Lichtenberg (Berlin) [U5])"
-      },
-      {
-        "type": "hint",
         "code": "bf",
-        "text": "barrierefrei"
+        "text": "barrier-free"
       },
       {
         "type": "hint",
         "code": "FB",
-        "text": "Fahrradmitnahme möglich"
+        "text": "Bicycle conveyance"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
@@ -385,15 +707,10 @@
         "validUntil": "2022-12-31T00:00:00+01:00",
         "modified": "2021-12-06T15:29:37+01:00"
       }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.511296,
-      "longitude": 13.497546
-    }
+    ]
   },
   {
-    "tripId": "1|17515|0|86|8122021",
+    "tripId": "1|18064|2|86|8122021",
     "stop": {
       "type": "stop",
       "id": "900000160020",
@@ -414,9 +731,9 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T17:56:00+01:00",
-    "plannedWhen": "2021-12-08T17:56:00+01:00",
-    "delay": 0,
+    "when": "2021-12-08T15:36:00+01:00",
+    "plannedWhen": "2021-12-08T15:36:00+01:00",
+    "delay": null,
     "platform": null,
     "plannedPlatform": null,
     "direction": null,
@@ -424,7 +741,7 @@
     "line": {
       "type": "line",
       "id": "256",
-      "fahrtNr": "35669",
+      "fahrtNr": "28899",
       "name": "256",
       "public": true,
       "adminCode": "BVB",
@@ -445,19 +762,14 @@
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (Gernotstr. (Berlin) - S+U Lichtenberg Bhf/Siegfriedstr. (Berlin))"
-      },
-      {
-        "type": "hint",
         "code": "bf",
-        "text": "barrierefrei"
+        "text": "barrier-free"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
@@ -480,15 +792,10 @@
         "validUntil": "2022-12-31T00:00:00+01:00",
         "modified": "2021-12-06T15:29:37+01:00"
       }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.512034,
-      "longitude": 13.497771
-    }
+    ]
   },
   {
-    "tripId": "1|37627|5|86|8122021",
+    "tripId": "1|38088|39|86|8122021",
     "stop": {
       "type": "stop",
       "id": "900000160004",
@@ -509,9 +816,9 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T17:56:00+01:00",
-    "plannedWhen": "2021-12-08T17:56:00+01:00",
-    "delay": 0,
+    "when": "2021-12-08T15:36:00+01:00",
+    "plannedWhen": "2021-12-08T15:36:00+01:00",
+    "delay": null,
     "platform": "2",
     "plannedPlatform": "2",
     "direction": null,
@@ -519,7 +826,7 @@
     "line": {
       "type": "line",
       "id": "s7",
-      "fahrtNr": "29222",
+      "fahrtNr": "26771",
       "name": "S7",
       "public": true,
       "adminCode": "DBS",
@@ -535,128 +842,24 @@
       "nr": 7,
       "metro": false,
       "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#6d61f2"
-      }
-    },
-    "remarks": [
-      {
-        "type": "hint",
-        "code": "OPERATOR",
-        "text": "DBS (S Friedrichsfelde Ost (Berlin) - S+U Lichtenberg Bhf (Berlin))"
-      },
-      {
-        "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
-      },
-      {
-        "type": "hint",
-        "code": "FB",
-        "text": "Fahrradmitnahme möglich"
-      },
-      {
-        "id": "144719",
-        "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
-        "icon": {
-          "type": "HIM0",
-          "title": null
-        },
-        "priority": 100,
-        "products": {
-          "suburban": true,
-          "subway": true,
-          "tram": true,
-          "bus": true,
-          "ferry": true,
-          "express": true,
-          "regional": true
-        },
-        "company": "VBB",
-        "categories": [
-          0
-        ],
-        "validFrom": "2021-11-24T00:00:00+01:00",
-        "validUntil": "2022-12-31T00:00:00+01:00",
-        "modified": "2021-12-06T15:29:37+01:00"
-      }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.511332,
-      "longitude": 13.499694
-    }
-  },
-  {
-    "tripId": "1|64083|4|86|8122021",
-    "stop": {
-      "type": "stop",
-      "id": "900000160020",
-      "name": "S+U Lichtenberg/Siegfriedstr.",
-      "location": {
-        "type": "location",
-        "id": "900160020",
-        "latitude": 52.511953,
-        "longitude": 13.497654
-      },
-      "products": {
-        "suburban": true,
-        "subway": true,
-        "tram": true,
-        "bus": true,
-        "ferry": false,
-        "express": true,
-        "regional": true
-      }
-    },
-    "when": "2021-12-08T17:56:00+01:00",
-    "plannedWhen": "2021-12-08T17:57:00+01:00",
-    "delay": -60,
-    "platform": null,
-    "plannedPlatform": null,
-    "direction": null,
-    "provenance": "Falkenberg",
-    "line": {
-      "type": "line",
-      "id": "256",
-      "fahrtNr": "35635",
-      "name": "256",
-      "public": true,
-      "adminCode": "BVB",
-      "productName": "Bus",
-      "mode": "bus",
-      "product": "bus",
-      "operator": {
-        "type": "operator",
-        "id": "berliner-verkehrsbetriebe",
-        "name": "Berliner Verkehrsbetriebe"
-      },
-      "symbol": null,
-      "nr": 256,
-      "metro": false,
-      "express": false,
       "night": false
     },
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (Fanningerstr. (Berlin) - S+U Lichtenberg Bhf/Siegfriedstr. (Berlin))"
+        "code": "bf",
+        "text": "barrier-free"
       },
       {
         "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
+        "code": "FB",
+        "text": "Bicycle conveyance"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
@@ -679,15 +882,10 @@
         "validUntil": "2022-12-31T00:00:00+01:00",
         "modified": "2021-12-06T15:29:37+01:00"
       }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.51207,
-      "longitude": 13.497861
-    }
+    ]
   },
   {
-    "tripId": "1|44311|6|86|8122021",
+    "tripId": "1|44884|0|86|8122021",
     "stop": {
       "type": "stop",
       "id": "900000160004",
@@ -708,18 +906,18 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T17:57:00+01:00",
-    "plannedWhen": "2021-12-08T17:57:00+01:00",
-    "delay": 0,
-    "platform": "17",
-    "plannedPlatform": "17",
+    "when": "2021-12-08T15:36:00+01:00",
+    "plannedWhen": "2021-12-08T15:36:00+01:00",
+    "delay": null,
+    "platform": "15",
+    "plannedPlatform": "15",
     "direction": null,
-    "provenance": "Templin, Stadt",
+    "provenance": "S Ostkreuz",
     "line": {
       "type": "line",
-      "id": "rb12",
-      "fahrtNr": "1355",
-      "name": "RB12",
+      "id": "rb26",
+      "fahrtNr": "879",
+      "name": "RB26",
       "public": true,
       "adminCode": "NEB",
       "productName": "RB",
@@ -731,215 +929,7 @@
         "name": "NEB Betriebsgesellschaft mbH"
       },
       "symbol": "RB",
-      "nr": 12,
-      "metro": false,
-      "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#9900ff"
-      }
-    },
-    "remarks": [
-      {
-        "type": "hint",
-        "code": "OPERATOR",
-        "text": "NEB (S Hohenschönhausen Bhf (Berlin) - S+U Lichtenberg Bhf (Berlin))"
-      },
-      {
-        "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
-      },
-      {
-        "type": "hint",
-        "code": "FB",
-        "text": "Fahrradmitnahme möglich"
-      },
-      {
-        "id": "144719",
-        "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
-        "icon": {
-          "type": "HIM0",
-          "title": null
-        },
-        "priority": 100,
-        "products": {
-          "suburban": true,
-          "subway": true,
-          "tram": true,
-          "bus": true,
-          "ferry": true,
-          "express": true,
-          "regional": true
-        },
-        "company": "VBB",
-        "categories": [
-          0
-        ],
-        "validFrom": "2021-11-24T00:00:00+01:00",
-        "validUntil": "2022-12-31T00:00:00+01:00",
-        "modified": "2021-12-06T15:29:37+01:00"
-      }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.514506,
-      "longitude": 13.511407
-    }
-  },
-  {
-    "tripId": "1|37540|2|86|8122021",
-    "stop": {
-      "type": "stop",
-      "id": "900000160004",
-      "name": "S+U Lichtenberg",
-      "location": {
-        "type": "location",
-        "id": "900160004",
-        "latitude": 52.510676,
-        "longitude": 13.498355
-      },
-      "products": {
-        "suburban": true,
-        "subway": true,
-        "tram": true,
-        "bus": true,
-        "ferry": false,
-        "express": true,
-        "regional": true
-      }
-    },
-    "when": "2021-12-08T17:58:00+01:00",
-    "plannedWhen": "2021-12-08T17:58:00+01:00",
-    "delay": 0,
-    "platform": "1",
-    "plannedPlatform": "1",
-    "direction": null,
-    "provenance": "S Potsdam Hauptbahnhof",
-    "line": {
-      "type": "line",
-      "id": "s7",
-      "fahrtNr": "28772",
-      "name": "S7",
-      "public": true,
-      "adminCode": "DBS",
-      "productName": "S",
-      "mode": "train",
-      "product": "suburban",
-      "operator": {
-        "type": "operator",
-        "id": "s-bahn-berlin-gmbh",
-        "name": "S-Bahn Berlin GmbH"
-      },
-      "symbol": "S",
-      "nr": 7,
-      "metro": false,
-      "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#6d61f2"
-      }
-    },
-    "remarks": [
-      {
-        "type": "hint",
-        "code": "OPERATOR",
-        "text": "DBS (S Nöldnerplatz (Berlin) - S+U Lichtenberg Bhf (Berlin))"
-      },
-      {
-        "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
-      },
-      {
-        "type": "hint",
-        "code": "FB",
-        "text": "Fahrradmitnahme möglich"
-      },
-      {
-        "id": "144719",
-        "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
-        "icon": {
-          "type": "HIM0",
-          "title": null
-        },
-        "priority": 100,
-        "products": {
-          "suburban": true,
-          "subway": true,
-          "tram": true,
-          "bus": true,
-          "ferry": true,
-          "express": true,
-          "regional": true
-        },
-        "company": "VBB",
-        "categories": [
-          0
-        ],
-        "validFrom": "2021-11-24T00:00:00+01:00",
-        "validUntil": "2022-12-31T00:00:00+01:00",
-        "modified": "2021-12-06T15:29:37+01:00"
-      }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.503116,
-      "longitude": 13.483136
-    }
-  },
-  {
-    "tripId": "1|17518|0|86|8122021",
-    "stop": {
-      "type": "stop",
-      "id": "900000160020",
-      "name": "S+U Lichtenberg/Siegfriedstr.",
-      "location": {
-        "type": "location",
-        "id": "900160020",
-        "latitude": 52.511953,
-        "longitude": 13.497654
-      },
-      "products": {
-        "suburban": true,
-        "subway": true,
-        "tram": true,
-        "bus": true,
-        "ferry": false,
-        "express": true,
-        "regional": true
-      }
-    },
-    "when": "2021-12-08T18:00:00+01:00",
-    "plannedWhen": "2021-12-08T17:36:00+01:00",
-    "delay": 1440,
-    "platform": null,
-    "plannedPlatform": null,
-    "direction": null,
-    "provenance": "Zentralfriedhof",
-    "line": {
-      "type": "line",
-      "id": "256",
-      "fahrtNr": "35672",
-      "name": "256",
-      "public": true,
-      "adminCode": "BVB",
-      "productName": "Bus",
-      "mode": "bus",
-      "product": "bus",
-      "operator": {
-        "type": "operator",
-        "id": "berliner-verkehrsbetriebe",
-        "name": "Berliner Verkehrsbetriebe"
-      },
-      "symbol": null,
-      "nr": 256,
+      "nr": 26,
       "metro": false,
       "express": false,
       "night": false
@@ -947,19 +937,19 @@
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (Gernotstr. (Berlin) - S+U Lichtenberg Bhf/Siegfriedstr. (Berlin))"
+        "code": "bf",
+        "text": "barrier-free"
       },
       {
         "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
+        "code": "FB",
+        "text": "Bicycle conveyance"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
@@ -985,7 +975,7 @@
     ]
   },
   {
-    "tripId": "1|30336|12|86|8122021",
+    "tripId": "1|18032|0|86|8122021",
     "stop": {
       "type": "stop",
       "id": "900000160020",
@@ -1006,9 +996,269 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T18:00:00+01:00",
-    "plannedWhen": "2021-12-08T18:00:00+01:00",
-    "delay": 0,
+    "when": "2021-12-08T15:37:00+01:00",
+    "plannedWhen": "2021-12-08T15:37:00+01:00",
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "direction": null,
+    "provenance": "Falkenberg",
+    "line": {
+      "type": "line",
+      "id": "256",
+      "fahrtNr": "28862",
+      "name": "256",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 256,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "barrier-free"
+      },
+      {
+        "id": "144719",
+        "type": "warning",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          0
+        ],
+        "validFrom": "2021-11-24T00:00:00+01:00",
+        "validUntil": "2022-12-31T00:00:00+01:00",
+        "modified": "2021-12-06T15:29:37+01:00"
+      }
+    ]
+  },
+  {
+    "tripId": "1|16819|1|86|8122021",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": true,
+        "subway": true,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      }
+    },
+    "when": "2021-12-08T15:38:00+01:00",
+    "plannedWhen": "2021-12-08T15:38:00+01:00",
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "direction": null,
+    "provenance": "S Ostbahnhof",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "26870",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "barrier-free"
+      },
+      {
+        "id": "144719",
+        "type": "warning",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          0
+        ],
+        "validFrom": "2021-11-24T00:00:00+01:00",
+        "validUntil": "2022-12-31T00:00:00+01:00",
+        "modified": "2021-12-06T15:29:37+01:00"
+      }
+    ]
+  },
+  {
+    "tripId": "1|38105|34|86|8122021",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": true,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      }
+    },
+    "when": "2021-12-08T15:38:00+01:00",
+    "plannedWhen": "2021-12-08T15:38:00+01:00",
+    "delay": null,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "direction": null,
+    "provenance": "S Potsdam Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "26493",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "barrier-free"
+      },
+      {
+        "type": "hint",
+        "code": "FB",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "144719",
+        "type": "warning",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          0
+        ],
+        "validFrom": "2021-11-24T00:00:00+01:00",
+        "validUntil": "2022-12-31T00:00:00+01:00",
+        "modified": "2021-12-06T15:29:37+01:00"
+      }
+    ]
+  },
+  {
+    "tripId": "1|31125|5|86|8122021",
+    "stop": {
+      "type": "stop",
+      "id": "900000160020",
+      "name": "S+U Lichtenberg/Siegfriedstr.",
+      "location": {
+        "type": "location",
+        "id": "900160020",
+        "latitude": 52.511953,
+        "longitude": 13.497654
+      },
+      "products": {
+        "suburban": true,
+        "subway": true,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      }
+    },
+    "when": "2021-12-08T15:40:00+01:00",
+    "plannedWhen": "2021-12-08T15:40:00+01:00",
+    "delay": null,
     "platform": null,
     "plannedPlatform": null,
     "direction": null,
@@ -1016,7 +1266,7 @@
     "line": {
       "type": "line",
       "id": "21",
-      "fahrtNr": "405",
+      "fahrtNr": "1263",
       "name": "21",
       "public": true,
       "adminCode": "BVT",
@@ -1032,33 +1282,24 @@
       "nr": 21,
       "metro": false,
       "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#BC90C1"
-      }
+      "night": false
     },
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG"
-      },
-      {
-        "type": "hint",
         "code": "bf",
-        "text": "barrierefrei"
+        "text": "barrier-free"
       },
       {
         "type": "hint",
         "code": "FB",
-        "text": "Fahrradmitnahme möglich"
+        "text": "Bicycle conveyance"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
@@ -1084,7 +1325,7 @@
     ]
   },
   {
-    "tripId": "1|34434|11|86|8122021",
+    "tripId": "1|35049|1|86|8122021",
     "stop": {
       "type": "stop",
       "id": "900000160701",
@@ -1105,9 +1346,9 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T18:00:00+01:00",
-    "plannedWhen": "2021-12-08T18:00:00+01:00",
-    "delay": 0,
+    "when": "2021-12-08T15:40:00+01:00",
+    "plannedWhen": "2021-12-08T15:40:00+01:00",
+    "delay": null,
     "platform": "1",
     "plannedPlatform": "1",
     "direction": null,
@@ -1115,7 +1356,7 @@
     "line": {
       "type": "line",
       "id": "u5",
-      "fahrtNr": "17888",
+      "fahrtNr": "15798",
       "name": "U5",
       "public": true,
       "adminCode": "BVU",
@@ -1131,33 +1372,24 @@
       "nr": 5,
       "metro": false,
       "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#805233"
-      }
+      "night": false
     },
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (U Friedrichsfelde (Berlin) - S+U Lichtenberg (Berlin) [U5])"
-      },
-      {
-        "type": "hint",
         "code": "bf",
-        "text": "barrierefrei"
+        "text": "barrier-free"
       },
       {
         "type": "hint",
         "code": "FB",
-        "text": "Fahrradmitnahme möglich"
+        "text": "Bicycle conveyance"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
@@ -1180,15 +1412,10 @@
         "validUntil": "2022-12-31T00:00:00+01:00",
         "modified": "2021-12-06T15:29:37+01:00"
       }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.497444,
-      "longitude": 13.523246
-    }
+    ]
   },
   {
-    "tripId": "1|34522|13|86|8122021",
+    "tripId": "1|35143|3|86|8122021",
     "stop": {
       "type": "stop",
       "id": "900000160701",
@@ -1209,9 +1436,9 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T18:01:00+01:00",
-    "plannedWhen": "2021-12-08T18:00:00+01:00",
-    "delay": 60,
+    "when": "2021-12-08T15:40:00+01:00",
+    "plannedWhen": "2021-12-08T15:40:00+01:00",
+    "delay": null,
     "platform": "2",
     "plannedPlatform": "2",
     "direction": null,
@@ -1219,7 +1446,7 @@
     "line": {
       "type": "line",
       "id": "u5",
-      "fahrtNr": "17503",
+      "fahrtNr": "15399",
       "name": "U5",
       "public": true,
       "adminCode": "BVU",
@@ -1235,33 +1462,24 @@
       "nr": 5,
       "metro": false,
       "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#805233"
-      }
+      "night": false
     },
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (U Magdalenenstr. (Berlin) - S+U Lichtenberg (Berlin) [U5])"
-      },
-      {
-        "type": "hint",
         "code": "bf",
-        "text": "barrierefrei"
+        "text": "barrier-free"
       },
       {
         "type": "hint",
         "code": "FB",
-        "text": "Fahrradmitnahme möglich"
+        "text": "Bicycle conveyance"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
@@ -1284,15 +1502,10 @@
         "validUntil": "2022-12-31T00:00:00+01:00",
         "modified": "2021-12-06T15:29:37+01:00"
       }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.514838,
-      "longitude": 13.463477
-    }
+    ]
   },
   {
-    "tripId": "1|37155|0|86|8122021",
+    "tripId": "1|37778|3|86|8122021",
     "stop": {
       "type": "stop",
       "id": "900000160004",
@@ -1313,9 +1526,9 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T18:01:00+01:00",
-    "plannedWhen": "2021-12-08T18:00:00+01:00",
-    "delay": 60,
+    "when": "2021-12-08T15:40:00+01:00",
+    "plannedWhen": "2021-12-08T15:40:00+01:00",
+    "delay": null,
     "platform": "1",
     "plannedPlatform": "1",
     "direction": null,
@@ -1323,7 +1536,7 @@
     "line": {
       "type": "line",
       "id": "s5",
-      "fahrtNr": "27989",
+      "fahrtNr": "25925",
       "name": "S5",
       "public": true,
       "adminCode": "DBS",
@@ -1339,345 +1552,24 @@
       "nr": 5,
       "metro": false,
       "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#eb7405"
-      }
+      "night": false
     },
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "DBS (S Nöldnerplatz (Berlin) - S+U Lichtenberg Bhf (Berlin))"
-      },
-      {
-        "type": "hint",
         "code": "bf",
-        "text": "barrierefrei"
+        "text": "barrier-free"
       },
       {
         "type": "hint",
         "code": "FB",
-        "text": "Fahrradmitnahme möglich"
+        "text": "Bicycle conveyance"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
-        "icon": {
-          "type": "HIM0",
-          "title": null
-        },
-        "priority": 100,
-        "products": {
-          "suburban": true,
-          "subway": true,
-          "tram": true,
-          "bus": true,
-          "ferry": true,
-          "express": true,
-          "regional": true
-        },
-        "company": "VBB",
-        "categories": [
-          0
-        ],
-        "validFrom": "2021-11-24T00:00:00+01:00",
-        "validUntil": "2022-12-31T00:00:00+01:00",
-        "modified": "2021-12-06T15:29:37+01:00"
-      }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.505112,
-      "longitude": 13.456924
-    }
-  },
-  {
-    "tripId": "1|37747|2|86|8122021",
-    "stop": {
-      "type": "stop",
-      "id": "900000160004",
-      "name": "S+U Lichtenberg",
-      "location": {
-        "type": "location",
-        "id": "900160004",
-        "latitude": 52.510676,
-        "longitude": 13.498355
-      },
-      "products": {
-        "suburban": true,
-        "subway": true,
-        "tram": true,
-        "bus": true,
-        "ferry": false,
-        "express": true,
-        "regional": true
-      }
-    },
-    "when": "2021-12-08T18:01:00+01:00",
-    "plannedWhen": "2021-12-08T18:01:00+01:00",
-    "delay": 0,
-    "platform": "2",
-    "plannedPlatform": "2",
-    "direction": null,
-    "provenance": "S Wartenberg",
-    "line": {
-      "type": "line",
-      "id": "s75",
-      "fahrtNr": "29587",
-      "name": "S75",
-      "public": true,
-      "adminCode": "DBS",
-      "productName": "S",
-      "mode": "train",
-      "product": "suburban",
-      "operator": {
-        "type": "operator",
-        "id": "s-bahn-berlin-gmbh",
-        "name": "S-Bahn Berlin GmbH"
-      },
-      "symbol": "S",
-      "nr": 75,
-      "metro": false,
-      "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#6d61f2"
-      }
-    },
-    "remarks": [
-      {
-        "type": "hint",
-        "code": "OPERATOR",
-        "text": "DBS (S Friedrichsfelde Ost (Berlin) - S+U Lichtenberg Bhf (Berlin))"
-      },
-      {
-        "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
-      },
-      {
-        "type": "hint",
-        "code": "FB",
-        "text": "Fahrradmitnahme möglich"
-      },
-      {
-        "id": "144719",
-        "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
-        "icon": {
-          "type": "HIM0",
-          "title": null
-        },
-        "priority": 100,
-        "products": {
-          "suburban": true,
-          "subway": true,
-          "tram": true,
-          "bus": true,
-          "ferry": true,
-          "express": true,
-          "regional": true
-        },
-        "company": "VBB",
-        "categories": [
-          0
-        ],
-        "validFrom": "2021-11-24T00:00:00+01:00",
-        "validUntil": "2022-12-31T00:00:00+01:00",
-        "modified": "2021-12-06T15:29:37+01:00"
-      }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.525805,
-      "longitude": 13.536901
-    }
-  },
-  {
-    "tripId": "1|37299|4|86|8122021",
-    "stop": {
-      "type": "stop",
-      "id": "900000160004",
-      "name": "S+U Lichtenberg",
-      "location": {
-        "type": "location",
-        "id": "900160004",
-        "latitude": 52.510676,
-        "longitude": 13.498355
-      },
-      "products": {
-        "suburban": true,
-        "subway": true,
-        "tram": true,
-        "bus": true,
-        "ferry": false,
-        "express": true,
-        "regional": true
-      }
-    },
-    "when": "2021-12-08T18:03:00+01:00",
-    "plannedWhen": "2021-12-08T18:03:00+01:00",
-    "delay": 0,
-    "platform": "2",
-    "plannedPlatform": "2",
-    "direction": null,
-    "provenance": "S Hoppegarten",
-    "line": {
-      "type": "line",
-      "id": "s5",
-      "fahrtNr": "28451",
-      "name": "S5",
-      "public": true,
-      "adminCode": "DBS",
-      "productName": "S",
-      "mode": "train",
-      "product": "suburban",
-      "operator": {
-        "type": "operator",
-        "id": "s-bahn-berlin-gmbh",
-        "name": "S-Bahn Berlin GmbH"
-      },
-      "symbol": "S",
-      "nr": 5,
-      "metro": false,
-      "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#eb7405"
-      }
-    },
-    "remarks": [
-      {
-        "type": "hint",
-        "code": "OPERATOR",
-        "text": "DBS (S Friedrichsfelde Ost (Berlin) - S+U Lichtenberg Bhf (Berlin))"
-      },
-      {
-        "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
-      },
-      {
-        "type": "hint",
-        "code": "FB",
-        "text": "Fahrradmitnahme möglich"
-      },
-      {
-        "id": "144719",
-        "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
-        "icon": {
-          "type": "HIM0",
-          "title": null
-        },
-        "priority": 100,
-        "products": {
-          "suburban": true,
-          "subway": true,
-          "tram": true,
-          "bus": true,
-          "ferry": true,
-          "express": true,
-          "regional": true
-        },
-        "company": "VBB",
-        "categories": [
-          0
-        ],
-        "validFrom": "2021-11-24T00:00:00+01:00",
-        "validUntil": "2022-12-31T00:00:00+01:00",
-        "modified": "2021-12-06T15:29:37+01:00"
-      }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.512726,
-      "longitude": 13.574539
-    }
-  },
-  {
-    "tripId": "1|37759|4|86|8122021",
-    "stop": {
-      "type": "stop",
-      "id": "900000160004",
-      "name": "S+U Lichtenberg",
-      "location": {
-        "type": "location",
-        "id": "900160004",
-        "latitude": 52.510676,
-        "longitude": 13.498355
-      },
-      "products": {
-        "suburban": true,
-        "subway": true,
-        "tram": true,
-        "bus": true,
-        "ferry": false,
-        "express": true,
-        "regional": true
-      }
-    },
-    "when": "2021-12-08T18:03:00+01:00",
-    "plannedWhen": "2021-12-08T18:03:00+01:00",
-    "delay": 0,
-    "platform": "1",
-    "plannedPlatform": "1",
-    "direction": null,
-    "provenance": "S+U Warschauer Str.",
-    "line": {
-      "type": "line",
-      "id": "s75",
-      "fahrtNr": "29528",
-      "name": "S75",
-      "public": true,
-      "adminCode": "DBS",
-      "productName": "S",
-      "mode": "train",
-      "product": "suburban",
-      "operator": {
-        "type": "operator",
-        "id": "s-bahn-berlin-gmbh",
-        "name": "S-Bahn Berlin GmbH"
-      },
-      "symbol": "S",
-      "nr": 75,
-      "metro": false,
-      "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#6d61f2"
-      }
-    },
-    "remarks": [
-      {
-        "type": "hint",
-        "code": "OPERATOR",
-        "text": "DBS (S Nöldnerplatz (Berlin) - S+U Lichtenberg Bhf (Berlin))"
-      },
-      {
-        "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
-      },
-      {
-        "type": "hint",
-        "code": "FB",
-        "text": "Fahrradmitnahme möglich"
-      },
-      {
-        "id": "144719",
-        "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
@@ -1703,16 +1595,16 @@
     ]
   },
   {
-    "tripId": "1|19058|0|86|8122021",
+    "tripId": "1|38281|14|86|8122021",
     "stop": {
       "type": "stop",
-      "id": "900000160702",
-      "name": "S+U Lichtenberg [Bus]",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
       "location": {
         "type": "location",
-        "id": "900160702",
-        "latitude": 52.510389,
-        "longitude": 13.49947
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
       },
       "products": {
         "suburban": true,
@@ -1724,543 +1616,50 @@
         "regional": true
       }
     },
-    "when": "2021-12-08T18:03:00+01:00",
-    "plannedWhen": "2021-12-08T18:04:00+01:00",
-    "delay": -60,
-    "platform": null,
-    "plannedPlatform": null,
-    "direction": null,
-    "provenance": "S Karlshorst",
-    "line": {
-      "type": "line",
-      "id": "296",
-      "fahrtNr": "38725",
-      "name": "296",
-      "public": true,
-      "adminCode": "BVB",
-      "productName": "Bus",
-      "mode": "bus",
-      "product": "bus",
-      "operator": {
-        "type": "operator",
-        "id": "berliner-verkehrsbetriebe",
-        "name": "Berliner Verkehrsbetriebe"
-      },
-      "symbol": null,
-      "nr": 296,
-      "metro": false,
-      "express": false,
-      "night": false
-    },
-    "remarks": [
-      {
-        "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (Einbecker Str./Rosenfelder Str. (Berlin) - S+U Lichtenberg (Berlin) [Bus])"
-      },
-      {
-        "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
-      },
-      {
-        "id": "144719",
-        "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
-        "icon": {
-          "type": "HIM0",
-          "title": null
-        },
-        "priority": 100,
-        "products": {
-          "suburban": true,
-          "subway": true,
-          "tram": true,
-          "bus": true,
-          "ferry": true,
-          "express": true,
-          "regional": true
-        },
-        "company": "VBB",
-        "categories": [
-          0
-        ],
-        "validFrom": "2021-11-24T00:00:00+01:00",
-        "validUntil": "2022-12-31T00:00:00+01:00",
-        "modified": "2021-12-06T15:29:37+01:00"
-      }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.498181,
-      "longitude": 13.507605
-    }
-  },
-  {
-    "tripId": "1|34437|1|86|8122021",
-    "stop": {
-      "type": "stop",
-      "id": "900000160701",
-      "name": "S+U Lichtenberg [U5]",
-      "location": {
-        "type": "location",
-        "id": "900160701",
-        "latitude": 52.511135,
-        "longitude": 13.498499
-      },
-      "products": {
-        "suburban": true,
-        "subway": true,
-        "tram": true,
-        "bus": true,
-        "ferry": false,
-        "express": true,
-        "regional": true
-      }
-    },
-    "when": "2021-12-08T18:04:00+01:00",
-    "plannedWhen": "2021-12-08T18:04:00+01:00",
-    "delay": 0,
-    "platform": "1",
-    "plannedPlatform": "1",
-    "direction": null,
-    "provenance": "U Hönow",
-    "line": {
-      "type": "line",
-      "id": "u5",
-      "fahrtNr": "17889",
-      "name": "U5",
-      "public": true,
-      "adminCode": "BVU",
-      "productName": "U",
-      "mode": "train",
-      "product": "subway",
-      "operator": {
-        "type": "operator",
-        "id": "berliner-verkehrsbetriebe",
-        "name": "Berliner Verkehrsbetriebe"
-      },
-      "symbol": "U",
-      "nr": 5,
-      "metro": false,
-      "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#805233"
-      }
-    },
-    "remarks": [
-      {
-        "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (U Friedrichsfelde (Berlin) - S+U Lichtenberg (Berlin) [U5])"
-      },
-      {
-        "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
-      },
-      {
-        "type": "hint",
-        "code": "FB",
-        "text": "Fahrradmitnahme möglich"
-      },
-      {
-        "id": "144719",
-        "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
-        "icon": {
-          "type": "HIM0",
-          "title": null
-        },
-        "priority": 100,
-        "products": {
-          "suburban": true,
-          "subway": true,
-          "tram": true,
-          "bus": true,
-          "ferry": true,
-          "express": true,
-          "regional": true
-        },
-        "company": "VBB",
-        "categories": [
-          0
-        ],
-        "validFrom": "2021-11-24T00:00:00+01:00",
-        "validUntil": "2022-12-31T00:00:00+01:00",
-        "modified": "2021-12-06T15:29:37+01:00"
-      }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.505462,
-      "longitude": 13.56101
-    }
-  },
-  {
-    "tripId": "1|34526|3|86|8122021",
-    "stop": {
-      "type": "stop",
-      "id": "900000160701",
-      "name": "S+U Lichtenberg [U5]",
-      "location": {
-        "type": "location",
-        "id": "900160701",
-        "latitude": 52.511135,
-        "longitude": 13.498499
-      },
-      "products": {
-        "suburban": true,
-        "subway": true,
-        "tram": true,
-        "bus": true,
-        "ferry": false,
-        "express": true,
-        "regional": true
-      }
-    },
-    "when": "2021-12-08T18:04:00+01:00",
-    "plannedWhen": "2021-12-08T18:04:00+01:00",
-    "delay": 0,
+    "when": "2021-12-08T15:41:00+01:00",
+    "plannedWhen": "2021-12-08T15:41:00+01:00",
+    "delay": null,
     "platform": "2",
     "plannedPlatform": "2",
     "direction": null,
-    "provenance": "S+U Berlin Hauptbahnhof",
+    "provenance": "S Wartenberg",
     "line": {
       "type": "line",
-      "id": "u5",
-      "fahrtNr": "17504",
-      "name": "U5",
+      "id": "s75",
+      "fahrtNr": "27083",
+      "name": "S75",
       "public": true,
-      "adminCode": "BVU",
-      "productName": "U",
+      "adminCode": "DBS",
+      "productName": "S",
       "mode": "train",
-      "product": "subway",
+      "product": "suburban",
       "operator": {
         "type": "operator",
-        "id": "berliner-verkehrsbetriebe",
-        "name": "Berliner Verkehrsbetriebe"
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
       },
-      "symbol": "U",
-      "nr": 5,
+      "symbol": "S",
+      "nr": 75,
       "metro": false,
       "express": false,
-      "night": false,
-      "color": {
-        "fg": "#fff",
-        "bg": "#805233"
-      }
+      "night": false
     },
     "remarks": [
       {
         "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (U Magdalenenstr. (Berlin) - S+U Lichtenberg (Berlin) [U5])"
-      },
-      {
-        "type": "hint",
         "code": "bf",
-        "text": "barrierefrei"
+        "text": "barrier-free"
       },
       {
         "type": "hint",
         "code": "FB",
-        "text": "Fahrradmitnahme möglich"
+        "text": "Bicycle conveyance"
       },
       {
         "id": "144719",
         "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
-        "icon": {
-          "type": "HIM0",
-          "title": null
-        },
-        "priority": 100,
-        "products": {
-          "suburban": true,
-          "subway": true,
-          "tram": true,
-          "bus": true,
-          "ferry": true,
-          "express": true,
-          "regional": true
-        },
-        "company": "VBB",
-        "categories": [
-          0
-        ],
-        "validFrom": "2021-11-24T00:00:00+01:00",
-        "validUntil": "2022-12-31T00:00:00+01:00",
-        "modified": "2021-12-06T15:29:37+01:00"
-      }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.518128,
-      "longitude": 13.431224
-    }
-  },
-  {
-    "tripId": "1|16283|4|86|8122021",
-    "stop": {
-      "type": "stop",
-      "id": "900000160702",
-      "name": "S+U Lichtenberg [Bus]",
-      "location": {
-        "type": "location",
-        "id": "900160702",
-        "latitude": 52.510389,
-        "longitude": 13.49947
-      },
-      "products": {
-        "suburban": true,
-        "subway": true,
-        "tram": true,
-        "bus": true,
-        "ferry": false,
-        "express": true,
-        "regional": true
-      }
-    },
-    "when": "2021-12-08T18:06:00+01:00",
-    "plannedWhen": "2021-12-08T17:59:00+01:00",
-    "delay": 420,
-    "platform": null,
-    "plannedPlatform": null,
-    "direction": null,
-    "provenance": "S Storkower Str.",
-    "line": {
-      "type": "line",
-      "id": "240",
-      "fahrtNr": "33171",
-      "name": "240",
-      "public": true,
-      "adminCode": "BVB",
-      "productName": "Bus",
-      "mode": "bus",
-      "product": "bus",
-      "operator": {
-        "type": "operator",
-        "id": "berliner-verkehrsbetriebe",
-        "name": "Berliner Verkehrsbetriebe"
-      },
-      "symbol": null,
-      "nr": 240,
-      "metro": false,
-      "express": false,
-      "night": false
-    },
-    "remarks": [
-      {
-        "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (Einbecker Str./Rosenfelder Str. (Berlin) - S+U Lichtenberg (Berlin) [Bus])"
-      },
-      {
-        "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
-      },
-      {
-        "id": "144719",
-        "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
-        "icon": {
-          "type": "HIM0",
-          "title": null
-        },
-        "priority": 100,
-        "products": {
-          "suburban": true,
-          "subway": true,
-          "tram": true,
-          "bus": true,
-          "ferry": true,
-          "express": true,
-          "regional": true
-        },
-        "company": "VBB",
-        "categories": [
-          0
-        ],
-        "validFrom": "2021-11-24T00:00:00+01:00",
-        "validUntil": "2022-12-31T00:00:00+01:00",
-        "modified": "2021-12-06T15:29:37+01:00"
-      }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.522542,
-      "longitude": 13.499488
-    }
-  },
-  {
-    "tripId": "1|16228|13|86|8122021",
-    "stop": {
-      "type": "stop",
-      "id": "900000160702",
-      "name": "S+U Lichtenberg [Bus]",
-      "location": {
-        "type": "location",
-        "id": "900160702",
-        "latitude": 52.510389,
-        "longitude": 13.49947
-      },
-      "products": {
-        "suburban": true,
-        "subway": true,
-        "tram": true,
-        "bus": true,
-        "ferry": false,
-        "express": true,
-        "regional": true
-      }
-    },
-    "when": "2021-12-08T18:14:00+01:00",
-    "plannedWhen": "2021-12-08T17:38:00+01:00",
-    "delay": 2160,
-    "platform": null,
-    "plannedPlatform": null,
-    "direction": null,
-    "provenance": "S Ostbahnhof",
-    "line": {
-      "type": "line",
-      "id": "240",
-      "fahrtNr": "33106",
-      "name": "240",
-      "public": true,
-      "adminCode": "BVB",
-      "productName": "Bus",
-      "mode": "bus",
-      "product": "bus",
-      "operator": {
-        "type": "operator",
-        "id": "berliner-verkehrsbetriebe",
-        "name": "Berliner Verkehrsbetriebe"
-      },
-      "symbol": null,
-      "nr": 240,
-      "metro": false,
-      "express": false,
-      "night": false
-    },
-    "remarks": [
-      {
-        "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (Margaretenstr. (Berlin) [Ri. Lichtenberger Br.] - S+U Lichtenberg (Berlin) [Bus])"
-      },
-      {
-        "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
-      },
-      {
-        "id": "144719",
-        "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
-        "icon": {
-          "type": "HIM0",
-          "title": null
-        },
-        "priority": 100,
-        "products": {
-          "suburban": true,
-          "subway": true,
-          "tram": true,
-          "bus": true,
-          "ferry": true,
-          "express": true,
-          "regional": true
-        },
-        "company": "VBB",
-        "categories": [
-          0
-        ],
-        "validFrom": "2021-11-24T00:00:00+01:00",
-        "validUntil": "2022-12-31T00:00:00+01:00",
-        "modified": "2021-12-06T15:29:37+01:00"
-      }
-    ],
-    "currentTripPosition": {
-      "type": "location",
-      "latitude": 52.506739,
-      "longitude": 13.468987
-    }
-  },
-  {
-    "tripId": "1|16229|1|86|8122021",
-    "stop": {
-      "type": "stop",
-      "id": "900000160702",
-      "name": "S+U Lichtenberg [Bus]",
-      "location": {
-        "type": "location",
-        "id": "900160702",
-        "latitude": 52.510389,
-        "longitude": 13.49947
-      },
-      "products": {
-        "suburban": true,
-        "subway": true,
-        "tram": true,
-        "bus": true,
-        "ferry": false,
-        "express": true,
-        "regional": true
-      }
-    },
-    "when": "2021-12-08T18:33:00+01:00",
-    "plannedWhen": "2021-12-08T17:58:00+01:00",
-    "delay": 2100,
-    "platform": null,
-    "plannedPlatform": null,
-    "direction": null,
-    "provenance": "S Ostbahnhof",
-    "line": {
-      "type": "line",
-      "id": "240",
-      "fahrtNr": "33107",
-      "name": "240",
-      "public": true,
-      "adminCode": "BVB",
-      "productName": "Bus",
-      "mode": "bus",
-      "product": "bus",
-      "operator": {
-        "type": "operator",
-        "id": "berliner-verkehrsbetriebe",
-        "name": "Berliner Verkehrsbetriebe"
-      },
-      "symbol": null,
-      "nr": 240,
-      "metro": false,
-      "express": false,
-      "night": false
-    },
-    "remarks": [
-      {
-        "type": "hint",
-        "code": "OPERATOR",
-        "text": "BVG (Margaretenstr. (Berlin) [Ri. Lichtenberger Br.] - S+U Lichtenberg (Berlin) [Bus])"
-      },
-      {
-        "type": "hint",
-        "code": "bf",
-        "text": "barrierefrei"
-      },
-      {
-        "id": "144719",
-        "type": "warning",
-        "summary": "Es gelten 3G-Regel und Maskenpflicht!",
-        "text": "Wir empfehlen eine FFP2-Maske.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
+        "summary": "It is mandatory to be either vaccinated, recovered or tested when using public transport (3G).",
+        "text": "We recommend an FFP2 mask.\n<a href=\"https://www.vbb.de/corona\" target=\"_blank\" rel=\"noopener\">Further information (in German language)</a>",
         "icon": {
           "type": "HIM0",
           "title": null
