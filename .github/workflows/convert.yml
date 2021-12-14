@@ -4,7 +4,7 @@ name: Convert JSON to CSV data
 
 on:
   #push:
-  #workflow_dispatch:
+  workflow_dispatch:
   schedule:
     - cron:  '03 23 * * *'
     #- cron:  '* * 29 2 *'
