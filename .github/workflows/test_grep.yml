@@ -22,4 +22,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Test GREP functionality
         run: |
-          echo $(wc JSON_source/*.json -l | grep " 8 ")
+          echo $(wc JSON_source/*.json -l | grep " 8 " | rev | cut -f1 -d " " | rev)
