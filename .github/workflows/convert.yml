@@ -18,7 +18,10 @@ jobs:
     - name: move empty API response / Error Messages to separate Folder
       run: |-
         echo "number of Files: $(ls JSON_source/*.json | wc -l)"
+        nfiles=$(wc JSON_source/*.json -l | grep " 8 " | wc -l)
+        if (($nfiles > 0)); then
         wc JSON_source/*.json -l | grep " 8 " | rev | cut -f1 -d " " | rev | xargs mv -t JSON_source/error_messages_from_API_call
+        fi
         echo "number of Files: $(ls JSON_source/*.json | wc -l)"
     - name: Convert latest vbb & TIER data
       run: |-
