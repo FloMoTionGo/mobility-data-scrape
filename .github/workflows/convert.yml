@@ -16,7 +16,7 @@ jobs:
     - name: Check out this repo
       uses: actions/checkout@v2
     - name: move empty API response / Error Messages to separate Folder
-      run: wc *.json -l | grep " 8 " | rev | cut -f2 -d " " | rev | xargs mv -t JSON_source/error_messages_from_API_call
+      run: wc JSON_source/*.json -l | grep " 8 " | rev | cut -f2 -d " " | rev | xargs mv -t JSON_source/error_messages_from_API_call
     - name: Convert latest vbb & TIER data
       run: |-
         query_date=$(date +"%y%m%d")
