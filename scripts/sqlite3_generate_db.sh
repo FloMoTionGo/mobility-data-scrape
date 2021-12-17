@@ -1,5 +1,5 @@
 #!/bin/sh
-output_path='../DB/test.db'
+output_path='./DB/vbb.db'
 echo "
 CREATE TABLE vbb(
    id varchar(255),
@@ -20,8 +20,7 @@ CREATE TABLE vbb(
 .import ./CSV_per_day/211216vbb.csv vbb
 
 .mode column
-.output vbb.db
-
+.output $output_path
 SELECT id,
         SUBSTR(id,3,5) as trainID,
         arrival,
@@ -29,10 +28,7 @@ SELECT id,
         longitude
 FROM vbb;
 
-
-
 --.output stdout.sql
 --.dump
 --.exit
-" | sqlite3 $output_path
-#EOL
+" | sqlite3
