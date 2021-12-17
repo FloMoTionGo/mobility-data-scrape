@@ -15,6 +15,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run test script file
       run: |
-         chmod +x ./scripts/test.sh
-         ./scripts/test.sh
+         chmod +x ./scripts/sqlite3_generate_db.sh
+         ./scripts/sqlite3_generate_db.sh
       shell: bash
