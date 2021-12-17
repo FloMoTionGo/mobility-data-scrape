@@ -1,0 +1,20 @@
+# This is a basic workflow that is manually triggered
+
+name: Testing Action
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  run_tests:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run test script file
+      run: |
+         chmod +x ./scripts/test.sh
+         ./scripts/test.sh
+      shell: bash
