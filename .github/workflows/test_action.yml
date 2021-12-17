@@ -15,8 +15,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run test script file
       run: |-
-         db_path="./DB/vbb.sqlite"
+         db_path='mobility.sqlite'
          created_at=$(date -d "yesterday" +%y%m%d)
-         sqlite3 ${db_path} < ./scripts/generate_DB.sqlite
-         sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import CSV_per_day/${created_at}vbb.csv vbb" ".output $db_path" "Select * from vbb" > $db_path
+         sqlite3 ${db_path} < generate_DB.sqlite
+         sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}vbb.csv vbb"
+         sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}TIER.csv TIER"
       shell: bash
