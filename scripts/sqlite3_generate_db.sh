@@ -9,15 +9,15 @@ CREATE TABLE vbb(
    );
 
 .mode csv
-.import ../CSV_per_day/211208vbb.csv vbb
-.import ../CSV_per_day/211209vbb.csv vbb
-.import ../CSV_per_day/211210vbb.csv vbb
-.import ../CSV_per_day/211211vbb.csv vbb
-.import ../CSV_per_day/211212vbb.csv vbb
-.import ../CSV_per_day/211213vbb.csv vbb
-.import ../CSV_per_day/211214vbb.csv vbb
-.import ../CSV_per_day/211215vbb.csv vbb
-.import ../CSV_per_day/211216vbb.csv vbb
+.import ./CSV_per_day/211208vbb.csv vbb
+.import ./CSV_per_day/211209vbb.csv vbb
+.import ./CSV_per_day/211210vbb.csv vbb
+.import ./CSV_per_day/211211vbb.csv vbb
+.import ./CSV_per_day/211212vbb.csv vbb
+.import ./CSV_per_day/211213vbb.csv vbb
+.import ./CSV_per_day/211214vbb.csv vbb
+.import ./CSV_per_day/211215vbb.csv vbb
+.import ./CSV_per_day/211216vbb.csv vbb
 
 .mode column
 .output vbb.db
@@ -28,6 +28,8 @@ SELECT id,
         latitude,
         longitude
 FROM vbb;
+
+
 
 --.output stdout.sql
 --.dump
