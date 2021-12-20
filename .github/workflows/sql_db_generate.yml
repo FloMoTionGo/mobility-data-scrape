@@ -27,10 +27,7 @@ jobs:
          #echo " ----------- (3) ----------- "
          #sqlite3 ${db_path} -cmd ".shell more scripts/generate_DB.sqlite"
          #echo " ----------- (4) ----------- "
-         sqlite -cmd ".shell cd ./"
-         sqlite -cmd ".shell pwd"
-         sqlite -cmd ".shell touch ./${db_path}"
-         sqlite -cmd ".shell ls *.sqlite"
+         sqlite3 -cmd ".shell cd ./ & pwd & touch ./${db_path} & ls *.sqlite"
          #sqlite3 ${db_path} < scripts/generate_DB.sqlite
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import CSV_per_day/${created_at}vbb.csv vbb"
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import CSV_per_day/${created_at}vbb.csv vbb"
