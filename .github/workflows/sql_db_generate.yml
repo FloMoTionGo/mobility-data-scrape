@@ -18,7 +18,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run DB generate
       run: |-
-         db_path='srcripts/mobility.sqlite'
+         db_path='srcripts/generate_DB.sqlite'
          created_at=$(date -d "yesterday" +%y%m%d)
          echo " ----------- .shell ls ${db_path} ----------- "
          sqlite3 ${db_path} -cmd ".shell ls ${db_path}"
