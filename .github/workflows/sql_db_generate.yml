@@ -13,7 +13,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   run_tests:
-    runs-on: ubuntu-20.04 #ubuntu-latest
+    runs-on: ubuntu-20.04 # ubuntu-latest # 
     steps:
     - uses: actions/checkout@v2
     - name: Run DB generate
@@ -29,6 +29,7 @@ jobs:
          #echo " ----------- (4) ----------- "
          touch ${db_path}
          sqlite3 ${db_path} < scripts/generate_DB.sqlite
+         sqlite3  -cmd ".schema"
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}vbb.csv vbb"
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}TIER.csv TIER"
          #sqlite3 ${db_path} -cmd ".output dumpedDB.sqlite .dump"
