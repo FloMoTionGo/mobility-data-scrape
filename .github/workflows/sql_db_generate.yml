@@ -13,11 +13,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   run_tests:
-    runs-on: ubuntu-20.04 # ubuntu-latest #
-    container:
-      image: ubuntu-20.04    
-      volumes: 
-       - ${{ github.workspace }}:/workspace
+    runs-on: ubuntu-18.04 # ubuntu-latest #
     continue-on-error: true
     steps:
     - name: Check out repository
@@ -28,12 +24,12 @@ jobs:
          created_at=$(date -d "yesterday" +%y%m%d)
          #echo " ----------- (1) ----------- "
          #sqlite3 ${db_path} -cmd ".shell ls scripts/generate_DB.sqlite & pwd"
-         #echo " ----------- (2) ----------- "
-         #sqlite3 ${db_path} -cmd ".shell ls ${db_path} & pwd"
+         echo " ----------- (2) ----------- "
+         sqlite3 ${db_path} -cmd ".shell ls ${db_path} & pwd"
          #echo " ----------- (3) ----------- "
          #sqlite3 ${db_path} -cmd ".shell more scripts/generate_DB.sqlite"
          #echo " ----------- (4) ----------- "
-         sqlite3 ${db_path} < /workspace/scripts/generate_DB.sqlite
+         sqlite3 ${db_path} < scripts/generate_DB.sqlite
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import CSV_per_day/${created_at}vbb.csv vbb"
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import CSV_per_day/${created_at}vbb.csv vbb"
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import CSV_per_day/${created_at}TIER.csv TIER"
