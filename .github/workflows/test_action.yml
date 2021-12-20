@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Testing Action
+name: SQLite - Generate DB from CSVs
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -16,13 +16,14 @@ jobs:
     runs-on: ubuntu-20.04 #ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run test script file
+    - name: Run DB generate
       run: |-
-         db_path='/home/runner/work/mobility-data-scrape/mobility-data-scrape/mobility.sqlite'
+         db_path='srcripts/mobility.sqlite'
          created_at=$(date -d "yesterday" +%y%m%d)
          cd ./ & pwd
          more scripts/generate_DB.sqlite
          more $db_path
+         sqlite3 ${db_path} -cmd ".shell cd ./ & pwd"
          #sqlite3 ${db_path} < /home/runner/work/mobility-data-scrape/mobility-data-scrape/generate_DB.sqlite
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}vbb.csv vbb"
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}TIER.csv TIER"
