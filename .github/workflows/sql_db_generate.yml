@@ -18,15 +18,17 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run DB generate
       run: |-
-         db_path='scripts/generate_DB.sqlite'
+         db_path='scripts/mobility.sqlite'
          created_at=$(date -d "yesterday" +%y%m%d)
-         echo " ----------- (1) ----------- "
-         sqlite3 ${db_path} -cmd ".shell ls scripts/generate_DB.sqlite & pwd"
-         echo " ----------- (2) ----------- "
-         sqlite3 ${db_path} -cmd ".shell ls ${db_path} & pwd"
-         echo " ----------- (3 ----------- "
-         sqlite3 ${db_path} -cmd ".shell more scripts/generate_DB.sqlite"
-         #sqlite3 ${db_path} < /home/runner/work/mobility-data-scrape/mobility-data-scrape/generate_DB.sqlite
+         #echo " ----------- (1) ----------- "
+         #sqlite3 ${db_path} -cmd ".shell ls scripts/generate_DB.sqlite & pwd"
+         #echo " ----------- (2) ----------- "
+         #sqlite3 ${db_path} -cmd ".shell ls ${db_path} & pwd"
+         #echo " ----------- (3) ----------- "
+         #sqlite3 ${db_path} -cmd ".shell more scripts/generate_DB.sqlite"
+         #echo " ----------- (4) ----------- "
+         touch ${db_path}
+         sqlite3 ${db_path} < scripts/generate_DB.sqlite
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}vbb.csv vbb"
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}TIER.csv TIER"
          #sqlite3 ${db_path} -cmd ".output dumpedDB.sqlite .dump"
