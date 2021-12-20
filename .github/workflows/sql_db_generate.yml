@@ -20,8 +20,6 @@ jobs:
       run: |-
          db_path='srcripts/mobility.sqlite'
          created_at=$(date -d "yesterday" +%y%m%d)
-         sqlite3 ${db_path} -cmd ".shell cd ./ & pwd"
-         sqlite3 ${db_path} -cmd ".shell ls scripts/*.sqlite"
          sqlite3 ${db_path} -cmd ".shell ls ${db_path}"
          #sqlite3 ${db_path} < /home/runner/work/mobility-data-scrape/mobility-data-scrape/generate_DB.sqlite
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}vbb.csv vbb"
