@@ -29,7 +29,8 @@ jobs:
          #echo " ----------- (4) ----------- "
          touch ${db_path}
          sqlite3 ${db_path} < scripts/generate_DB.sqlite
-         sqlite3  -cmd ".schema"
+         sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}vbb.csv vbb"
+         sqlite3  -cmd ".schema vbb" > test.txt
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}vbb.csv vbb"
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}TIER.csv TIER"
          #sqlite3 ${db_path} -cmd ".output dumpedDB.sqlite .dump"
