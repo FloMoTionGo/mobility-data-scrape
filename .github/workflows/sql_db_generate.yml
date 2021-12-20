@@ -21,7 +21,7 @@ jobs:
          db_path='srcripts/generate_DB.sqlite'
          created_at=$(date -d "yesterday" +%y%m%d)
          echo " ----------- (1) ----------- "
-         sqlite3 ${db_path} -cmd ".shell cd scripts & pwd"
+         sqlite3 ${db_path} -cmd ".shell ls scripts/* & pwd"
          #sqlite3 ${db_path} < /home/runner/work/mobility-data-scrape/mobility-data-scrape/generate_DB.sqlite
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}vbb.csv vbb"
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}TIER.csv TIER"
