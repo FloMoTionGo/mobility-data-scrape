@@ -24,6 +24,8 @@ jobs:
          sqlite3 ${db_path} -cmd ".shell ls scripts/generate_DB.sqlite & pwd"
          echo " ----------- (2) ----------- "
          sqlite3 ${db_path} -cmd ".shell ls ${db_path} & pwd"
+         echo " ----------- (3 ----------- "
+         sqlite3 ${db_path} -cmd ".shell more scripts/generate_DB.sqlite"
          #sqlite3 ${db_path} < /home/runner/work/mobility-data-scrape/mobility-data-scrape/generate_DB.sqlite
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}vbb.csv vbb"
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}TIER.csv TIER"
