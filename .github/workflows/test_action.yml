@@ -6,16 +6,9 @@ name: Testing Action
 # or API.
 on:
   workflow_dispatch:
-    inputs:
-      name:
-        description: 'Person to greet'
-        required: true
-        default: 'Mona the Octocat'
-      home:
-        description: 'location'
-        required: false
-        default: 'The Octoverse'
   push:
+    branches:
+      - sqlite_test
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -27,8 +20,9 @@ jobs:
       run: |-
          db_path='/home/runner/work/mobility-data-scrape/mobility-data-scrape/mobility.sqlite'
          created_at=$(date -d "yesterday" +%y%m%d)
-         #cd ./ & pwd
-         more /home/runner/work/mobility-data-scrape/mobility-data-scrape/scripts/generate_DB.sqlite
+         cd ./ & pwd
+         more scripts/generate_DB.sqlite
+         more $db_path
          #sqlite3 ${db_path} < /home/runner/work/mobility-data-scrape/mobility-data-scrape/generate_DB.sqlite
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}vbb.csv vbb"
          #sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}TIER.csv TIER"
