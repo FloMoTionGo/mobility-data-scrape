@@ -17,6 +17,7 @@ jobs:
       run: |-
          db_path='mobility.sqlite'
          created_at=$(date -d "yesterday" +%y%m%d)
+         cd ./ & pwd
          sqlite3 ${db_path} < generate_DB.sqlite
          sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}vbb.csv vbb"
          sqlite3 ${db_path} -cmd ".header on" ".mode csv" ".import ${created_at}TIER.csv TIER"
