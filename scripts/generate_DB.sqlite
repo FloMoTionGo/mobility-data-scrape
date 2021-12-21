@@ -1,21 +1,22 @@
 -- generate VBB Table
 CREATE TABLE IF NOT EXISTS vbb (
    id varchar(255),
-   arrival TIMESTAMP,
-   latitude varchar(255),
-   longitude varchar(255)
-   );
-
-CREATE INDEX IF NOT EXISTS i_arrival
-   ON vbb(arrival);
-
--- generate TIER table
-CREATE TABLE IF NOT EXISTS TIER (
-   id varchar(255),
-   last_change TIMESTAMP,
+   created_at TIMESTAMP,
    type varchar(255),
    latitude varchar(255),
    longitude varchar(255)
    );
-   CREATE INDEX IF NOT EXISTS i_last_change
-      ON TIER(last_change);
+
+CREATE INDEX IF NOT EXISTS i_created_at
+   ON vbb(created_at);
+
+-- generate TIER table
+CREATE TABLE IF NOT EXISTS TIER (
+   id varchar(255),
+   created_at TIMESTAMP,
+   type varchar(255),
+   latitude varchar(255),
+   longitude varchar(255)
+   );
+   CREATE INDEX IF NOT EXISTS i_created_at
+      ON TIER(created_at);

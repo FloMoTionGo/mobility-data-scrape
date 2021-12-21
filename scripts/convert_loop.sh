@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/sh
 declare -i mindate=$(ls ../JSON_source/*.json | xargs -n1 basename | cut -c1-6 | sort | head -n 1)
 declare -i maxdate=$(ls ../JSON_source/*.json | xargs -n1 basename | cut -c1-6 | sort | tail -n 1)
 num_days_back=$((maxdate - mindate))
