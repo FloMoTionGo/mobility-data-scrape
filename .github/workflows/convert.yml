@@ -27,11 +27,11 @@ jobs:
       run: |-
         query_date=$(date +"%y%m%d")
         service=vbb
-        #touch CSV_per_day/${query_date}${service}.csv
-        jq -r '.[] | [ .tripId, .when, .line.name, .stop.location.latitude, .stop.location.longitude ] | @csv' JSON_source/${query_date}*${service}*.json > CSV_per_day/${query_date}${service}.csv
+        echo ID, created_at, vehicle, latitude, longitude > CSV_per_day/${query_date}${service}.csv
+        jq -r '.[] | [ .tripId, .when, .line.name, .stop.location.latitude, .stop.location.longitude ] | @csv' JSON_source/${query_date}*${service}*.json >> CSV_per_day/${query_date}${service}.csv
         service=TIER
-        #touch CSV_per_day/${query_date}${service}.csv
-        jq -r '.data[] | [ .id, .attributes.lastLocationUpdate, .attributes.vehicleType, .attributes.lat, .attributes.lng  ] | @csv' JSON_source/${query_date}*${service}*.json > CSV_per_day/${query_date}${service}.csv
+        echo ID, created_at, vehicle, latitude, longitude > CSV_per_day/${query_date}${service}.csv
+        jq -r '.data[] | [ .id, .attributes.lastLocationUpdate, .attributes.vehicleType, .attributes.lat, .attributes.lng  ] | @csv' JSON_source/${query_date}*${service}*.json >> CSV_per_day/${query_date}${service}.csv
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
