@@ -6,7 +6,7 @@ on:
   #push:
   workflow_dispatch:
   schedule:
-    - cron:  '03 23 * * *'
+    - cron:  '03 0 * * *'
     #- cron:  '* * 29 2 *'
 
 jobs:
@@ -25,7 +25,7 @@ jobs:
         echo "total number of Files: $(ls JSON_source/*.json | wc -l)"
     - name: Convert latest vbb & TIER data
       run: |-
-        query_date=$(date +"%y%m%d")
+        query_date=$(date +%y%m%d -d "Yesterday")
         service=vbb
         echo ID, created_at, vehicle, latitude, longitude > CSV_per_day/${query_date}${service}.csv
         jq -r '.[] | [ .tripId, .when, .line.name, .stop.location.latitude, .stop.location.longitude ] | @csv' JSON_source/${query_date}*${service}*.json >> CSV_per_day/${query_date}${service}.csv
