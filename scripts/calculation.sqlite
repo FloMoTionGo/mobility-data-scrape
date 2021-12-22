@@ -18,11 +18,14 @@ SELECT
 from TIER
 group by Date_in_ymd;
 
+CREATE TABLE daily AS
 select
   dailyVBB.Date_in_ymd
 , Count_per_day_TIER
 , Count_per_day_VBB
 , round(Count_per_day_TIER / CAST(Count_per_day_VBB AS real),2) as ratio
+, 52.509434 as Latitude
+, 13.497544 as longitude
 from dailyTIER
 inner join dailyVBB
 on dailyVBB.Date_in_ymd = dailyTIER.Date_in_ymd;

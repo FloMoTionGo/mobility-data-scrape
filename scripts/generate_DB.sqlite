@@ -3,8 +3,8 @@ CREATE TABLE IF NOT EXISTS vbb (
    id varchar(255),
    created_at TIMESTAMP,
    type varchar(255),
-   latitude varchar(255),
-   longitude varchar(255)
+   latitude REAL,
+   longitude REAL
    );
 
 CREATE INDEX IF NOT EXISTS i_created_at
@@ -15,8 +15,10 @@ CREATE TABLE IF NOT EXISTS TIER (
    id varchar(255),
    created_at TIMESTAMP,
    type varchar(255),
-   latitude varchar(255),
-   longitude varchar(255)
+   latitude REAL,
+   longitude REAL,
+   latitude_grid REAL,
+   longitude_grid REAL
    );
    CREATE INDEX IF NOT EXISTS i_created_at
       ON TIER(created_at);
