@@ -5,7 +5,8 @@ do
   inputFilename='CSV/'${daydate}'TIER.csv'
   outputFilename='Grids/'${daydate}'TIER_onGrid.csv'
   gridFilename='Grids/coordinatesLichtenberg.csv'
-  if (( $(wc --lines < ${inputFilename}) > 1 )) || (( $(ls ${outputFilename} | wc -l) == 0 )); then #DOESN'T WORK
+  if ! [[ -f $outputFilename ]]; then
+  echo Working on $outputFilename
   while read line; do
     mindist=1
     while read coord; do
@@ -28,6 +29,6 @@ do
   echo "$line, $xmin, $ymin" >> $outputFilename
   done<$inputFilename
   else
-    echo Skipping ${daydate}
+    echo Skipping $outputFilename
   fi
 done

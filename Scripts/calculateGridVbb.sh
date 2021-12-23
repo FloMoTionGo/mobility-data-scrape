@@ -9,11 +9,12 @@ maxLon=13.500017
 minLon=13.491832
 #create grid
 steps=5
-incLat=$(bc <<< "scale=6; ($maxLat-$minLat) / $steps")
-incLon=$(bc <<< "scale=6; ($maxLon-$minLon) / $steps")
-fname="Grids/Coordinates_Lichtenberg.csv"
+scale=6
+incLat=$(bc <<< "scale=$scale; ($maxLat-$minLat) / $steps")
+incLon=$(bc <<< "scale=$scale; ($maxLon-$minLon) / $steps")
+fname="Grids/coordinatesLichtenberg.csv"
 #echo Latitude, Longitude > $fname
 for i in $(seq 1 ${steps})
 do for j in $(seq 1 ${steps})
-do echo $(bc <<< "scale=6;$minLat + $incLat * $i"), $(bc <<< "scale=4;$minLon + $incLon * $j") >> $fname
+do echo $(bc <<< "scale=$scale;$minLat + $incLat * $i"), $(bc <<< "scale=$scale;$minLon + $incLon * $j") >> $fname
 done;done;

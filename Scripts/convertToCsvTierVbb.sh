@@ -3,7 +3,7 @@ declare -i mindate=$(ls JSON/*.json | xargs -n1 basename | cut -c1-6 | sort | he
 declare -i maxdate=$(ls JSON/*.json | xargs -n1 basename | cut -c1-6 | sort | tail -n 1)
 num_days_back=$((maxdate - mindate))
 #for i in $(seq 1 ${num_days_back}); do echo $i, $(date -d "Today - $i days" +%y%m%d); done;
-for i in $(seq 1 ${num_days_back})
+for i in $(seq ${num_days_back} -1 1)
 do d=$(date -d "Today - $i days" +%y%m%d)
 echo $d
 service=vbb
