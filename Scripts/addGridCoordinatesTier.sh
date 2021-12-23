@@ -4,7 +4,7 @@ for daydate in ${ListOfDates}
 do
   inputFilename='CSV/'${daydate}'TIER.csv'
   outputFilename='Grids/'${daydate}'TIER_onGrid.csv'
-  gridFilename='Grids/Coordinates_Lichtenberg.csv'
+  gridFilename='Grids/coordinatesLichtenberg.csv'
   if (( $(wc --lines < ${inputFilename}) > 1 )) || (( $(ls ${outputFilename} | wc -l) == 0 )); then #DOESN'T WORK
   while read line; do
     mindist=1

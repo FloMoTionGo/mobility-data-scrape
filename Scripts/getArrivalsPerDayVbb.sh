@@ -1,4 +1,8 @@
 #!bin/bash
+#TODO declare -i mindate=$(ls JSON/*.json | xargs -n1 basename | cut -c1-6 | sort | head -n 1)
+#TODO declare -i maxdate=$(ls JSON/*.json | xargs -n1 basename | cut -c1-6 | sort | tail -n 1)
+#TODO num_days_back=$((maxdate - mindate))
+
 for d in {10,11,12,13,14}
 do query_day=2112$d
 for h in {06,07,08,09,15,16,17,18}

@@ -17,21 +17,21 @@ jobs:
       uses: actions/checkout@v2
     - name: move empty API response / Error Messages to separate Folder
       run: |-
-        nfiles=$(wc JSON_source/*.json -l | grep " 8 " | wc -l)
+        nfiles=$(wc JSON/*.json -l | grep " 8 " | wc -l)
         echo "number of empty Files: $nfiles"
         if (($nfiles > 0)); then
-        wc JSON_source/*.json -l | grep " 8 " | rev | cut -f1 -d " " | rev | xargs mv -t JSON_source/error_messages_from_API_call
+        wc JSON/*.json -l | grep " 8 " | rev | cut -f1 -d " " | rev | xargs mv -t JSON/error_messages_from_API_call
         fi
-        echo "total number of Files: $(ls JSON_source/*.json | wc -l)"
+        echo "total number of Files: $(ls JSON/*.json | wc -l)"
     - name: Convert latest vbb & TIER data
       run: |-
         query_date=$(date +%y%m%d -d "Yesterday")
         service=vbb
-        echo ID, created_at, vehicle, latitude, longitude > CSV_per_day/${query_date}${service}.csv
-        jq -r '.[] | [ .tripId, .when, .line.name, .stop.location.latitude, .stop.location.longitude ] | @csv' JSON_source/${query_date}*${service}*.json >> CSV_per_day/${query_date}${service}.csv
+        echo ID, created_at, vehicle, latitude, longitude > CSV/${query_date}${service}.csv
+        jq -r '.[] | [ .tripId, .when, .line.name, .stop.location.latitude, .stop.location.longitude ] | @csv' JSON/${query_date}*${service}*.json >> CSV/${query_date}${service}.csv
         service=TIER
-        echo ID, created_at, vehicle, latitude, longitude > CSV_per_day/${query_date}${service}.csv
-        jq -r '.data[] | [ .id, .attributes.lastLocationUpdate, .attributes.vehicleType, .attributes.lat, .attributes.lng  ] | @csv' JSON_source/${query_date}*${service}*.json >> CSV_per_day/${query_date}${service}.csv
+        echo ID, created_at, vehicle, latitude, longitude > CSV/${query_date}${service}.csv
+        jq -r '.data[] | [ .id, .attributes.lastLocationUpdate, .attributes.vehicleType, .attributes.lat, .attributes.lng  ] | @csv' JSON/${query_date}*${service}*.json >> CSV/${query_date}${service}.csv
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"

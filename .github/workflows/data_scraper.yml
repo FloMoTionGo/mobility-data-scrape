@@ -17,10 +17,10 @@ jobs:
       run: |-
         curl 'https://v5.bvg.transport.rest/stops/900000160004/arrivals?duration=10&linesOfStops=false&remarks=true&language=en' \
         -H 'accept: application/json' \
-        | jq . > JSON_source/$(date +"%y%m%d%H")_vbb_arrivals.json
+        | jq . > JSON/$(date +"%y%m%d%H")_vbb_arrivals.json
         curl -X 'GET' "https://platform.tier-services.io/v1/vehicle?lat=52.509434&lng=13.497544&radius=200" \
         -H 'X-Api-Key: bpEUTJEBTf74oGRWxaIcW7aeZMzDDODe1yBoSxi2' -H 'accept: application/json' \
-        | jq . > JSON_source/$(date +"%y%m%d%H")_TIER_availability.json
+        | jq . > JSON/$(date +"%y%m%d%H")_TIER_availability.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
