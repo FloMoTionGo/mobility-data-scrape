@@ -20,4 +20,4 @@ echo --- Import CSV ---
 bash Scripts/TIERVBB_import.sh > Logs/LogImportCSV.txt
 # transform data in DB
 echo --- Transform SQLite ---
-bash Scripts/TIERVBB_transform.sh > Logs/LogTransformSQLite.txt
+bash Scripts/TIERVBB_Transform.sh > Logs/LogTransformSQLite.txt
