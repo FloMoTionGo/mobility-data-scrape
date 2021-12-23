@@ -1,5 +1,5 @@
 #!/bin/sh
-db_path='../DB/mobility.sqlite'
+db_path='DB/mobility.sqlite'
 #sqlite3 ${db_path} < calculation.sqlite
 
 #Lichtenberg Grid
@@ -11,7 +11,7 @@ minLon=13.491832
 steps=5
 incLat=$(bc <<< "scale=6; ($maxLat-$minLat) / $steps")
 incLon=$(bc <<< "scale=6; ($maxLon-$minLon) / $steps")
-fname="Coordinates_Lichtenberg.csv"
+fname="Grids/Coordinates_Lichtenberg.csv"
 #echo Latitude, Longitude > $fname
 for i in $(seq 1 ${steps})
 do for j in $(seq 1 ${steps})

@@ -1,5 +1,5 @@
 -- generate VBB Table
-CREATE TABLE IF NOT EXISTS vbb (
+CREATE TABLE IF NOT EXISTS VBB (
    id varchar(255),
    created_at TIMESTAMP,
    type varchar(255),
@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS vbb (
    );
 
 CREATE INDEX IF NOT EXISTS i_created_at
-   ON vbb(created_at);
+   ON VBB(created_at);
 
 -- generate TIER table
 CREATE TABLE IF NOT EXISTS TIER (
