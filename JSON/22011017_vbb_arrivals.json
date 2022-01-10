@@ -1,6 +1,8 @@
 {
-  "message": "invalid json response body at https://bvg-apps-ext.hafas.de/bin/mgate.exe? reason: Unexpected end of JSON input",
-  "type": "invalid-json",
+  "message": "request to https://bvg-apps.hafas.de/bin/mgate.exe? failed, reason: getaddrinfo ENOTFOUND bvg-apps.hafas.de",
+  "type": "system",
+  "errno": "ENOTFOUND",
+  "code": "ENOTFOUND",
   "error": true,
-  "msg": "invalid json response body at https://bvg-apps-ext.hafas.de/bin/mgate.exe? reason: Unexpected end of JSON input"
+  "msg": "request to https://bvg-apps.hafas.de/bin/mgate.exe? failed, reason: getaddrinfo ENOTFOUND bvg-apps.hafas.de"
 }
