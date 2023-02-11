@@ -1,0 +1,849 @@
+[
+  {
+    "tripId": "1|26451|1|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160020",
+      "name": "S+U Lichtenberg/Siegfriedstr.",
+      "location": {
+        "type": "location",
+        "id": "900160020",
+        "latitude": 52.511953,
+        "longitude": 13.497654
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160020"
+    },
+    "when": "2023-02-11T07:43:00+01:00",
+    "plannedWhen": "2023-02-11T07:40:00+01:00",
+    "delay": 180,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "Siedlung Wartenberg/Str. 5",
+    "line": {
+      "type": "line",
+      "id": "256",
+      "fahrtNr": "34285",
+      "name": "256",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 256,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.512834,
+      "longitude": 13.499281
+    }
+  },
+  {
+    "tripId": "1|1650|4|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-02-11T07:43:00+01:00",
+    "plannedWhen": "2023-02-11T07:43:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Mahlsdorf",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "17418",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.513004,
+      "longitude": 13.507569
+    }
+  },
+  {
+    "tripId": "1|42808|1|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2023-02-11T07:46:00+01:00",
+    "plannedWhen": "2023-02-11T07:46:00+01:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "U Hönow",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "17725",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "187571",
+        "type": "warning",
+        "summary": "Buche jetzt deine flexible Weiterfahrt über die BVG-Muva-App!",
+        "text": "<a href=\"https://www.bvg.de/de/abos-und-tickets/alle-apps/bvg-muva-app\" target=\"_blank\" rel=\"noopener\">Download!</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          0
+        ],
+        "validFrom": "2023-02-03T14:40:00+01:00",
+        "validUntil": "2023-02-28T00:00:00+01:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.497687,
+      "longitude": 13.523057
+    }
+  },
+  {
+    "tripId": "1|25273|2|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-02-11T07:47:00+01:00",
+    "plannedWhen": "2023-02-11T07:45:00+01:00",
+    "delay": 120,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Storkower Str.",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "32789",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.515485,
+      "longitude": 13.491065
+    }
+  },
+  {
+    "tripId": "1|1771|2|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-02-11T07:47:00+01:00",
+    "plannedWhen": "2023-02-11T07:46:00+01:00",
+    "delay": 60,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "S Ahrensfelde",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "17887",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.525805,
+      "longitude": 13.536901
+    }
+  },
+  {
+    "tripId": "1|28057|1|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-02-11T07:48:00+01:00",
+    "plannedWhen": "2023-02-11T07:47:00+01:00",
+    "delay": 60,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Karlshorst",
+    "line": {
+      "type": "line",
+      "id": "296",
+      "fahrtNr": "36836",
+      "name": "296",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 296,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.498343,
+      "longitude": 13.507677
+    }
+  },
+  {
+    "tripId": "1|1862|0|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-02-11T07:48:00+01:00",
+    "plannedWhen": "2023-02-11T07:48:00+01:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Wannsee",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "18077",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.505984,
+      "longitude": 13.451638
+    }
+  },
+  {
+    "tripId": "1|42893|4|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2023-02-11T07:48:00+01:00",
+    "plannedWhen": "2023-02-11T07:48:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S+U Berlin Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "17348",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "187571",
+        "type": "warning",
+        "summary": "Buche jetzt deine flexible Weiterfahrt über die BVG-Muva-App!",
+        "text": "<a href=\"https://www.bvg.de/de/abos-und-tickets/alle-apps/bvg-muva-app\" target=\"_blank\" rel=\"noopener\">Download!</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          0
+        ],
+        "validFrom": "2023-02-03T14:40:00+01:00",
+        "validUntil": "2023-02-28T00:00:00+01:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.515782,
+      "longitude": 13.453966
+    }
+  },
+  {
+    "tripId": "1|1689|3|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-02-11T07:50:00+01:00",
+    "plannedWhen": "2023-02-11T07:50:00+01:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Westkreuz",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "17313",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.51064,
+      "longitude": 13.435565
+    }
+  },
+  {
+    "tripId": "1|1894|3|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-02-11T07:51:00+01:00",
+    "plannedWhen": "2023-02-11T07:51:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Wartenberg",
+    "line": {
+      "type": "line",
+      "id": "s75",
+      "fahrtNr": "18660",
+      "name": "S75",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 75,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.534498,
+      "longitude": 13.534222
+    }
+  },
+  {
+    "tripId": "1|39241|2|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160020",
+      "name": "S+U Lichtenberg/Siegfriedstr.",
+      "location": {
+        "type": "location",
+        "id": "900160020",
+        "latitude": 52.511953,
+        "longitude": 13.497654
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160020"
+    },
+    "when": "2023-02-11T07:52:00+01:00",
+    "plannedWhen": "2023-02-11T07:52:00+01:00",
+    "delay": 0,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "S+U Lichtenberg/Gudrunstr.",
+    "line": {
+      "type": "line",
+      "id": "21",
+      "fahrtNr": "1030",
+      "name": "21",
+      "public": true,
+      "adminCode": "BVT",
+      "productName": "Tram",
+      "mode": "train",
+      "product": "tram",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 21,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "b_",
+        "text": "vrstl. nicht barrierefrei"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160021",
+      "name": "S+U Lichtenberg/Gudrunstr.",
+      "location": {
+        "type": "location",
+        "id": "900160021",
+        "latitude": 52.512366,
+        "longitude": 13.500063
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160021"
+    },
+    "destination": null
+  },
+  {
+    "tripId": "1|25224|1|86|11022023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-02-11T07:54:00+01:00",
+    "plannedWhen": "2023-02-11T07:51:00+01:00",
+    "delay": 180,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Ostbahnhof",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "32734",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.51073,
+      "longitude": 13.463036
+    }
+  }
+]
