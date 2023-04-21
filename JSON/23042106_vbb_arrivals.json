@@ -1,0 +1,2390 @@
+[
+  {
+    "tripId": "1|1445|0|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": null,
+    "plannedWhen": "2023-04-21T08:40:00+02:00",
+    "prognosedWhen": null,
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Westkreuz",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "16291",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "192196",
+        "type": "warning",
+        "summary": "Warnstreik am Freitag, den 21. April ca. 3 bis 11 Uhr.",
+        "text": "Diese Fahrt entfällt. Wegen des Warnstreiks der Gewerkschaft EVG ist der Zugverkehr der S-Bahn Berlin eingestellt. Die zeitliche Aufnahme des S-Bahnverkehrs am heutigen Nachmittag hängt vom Streikverlauf ab. Bitte rechnen Sie auch nach Streikende mit Einschränkungen im S-Bahnverkehr. \nFür Fahrten innerhalb Berlins nutzen Sie bitte die Verkehrsmittel der BVG (U-Bahn, Tram, Bus). Auch der Regional- und Fernverkehr der Deutschen Bahn sowie weiterer Eisenbahnverkehrsunternehmen (u.a. Ostdeutsche Eisenbahn (ODEG), Niederbarnimer Eisenbahn (NEB)) ist von diesem Warnstreik betroffen. \nBitte informieren Sie sich entsprechend bei diesen Unternehmen.The EVG Railway &#38; Transport Union is striking S-Bahn services on Friday, 21 April from 3am to 11am in the morning. No train journeys can be offered during this time! Please expect restrictions even after the strike has ended. \nPlease use for journey within berlin the BVG (U-Bahn, Tram, Bus).",
+        "icon": {
+          "type": "HIM4",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "S-Bahn Berlin",
+        "categories": [
+          4
+        ],
+        "validFrom": "2023-04-21T02:50:00+02:00",
+        "validUntil": "2023-04-21T11:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.journey.cancelled",
+        "text": "S5 has been cancelled"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.stop.cancelled",
+        "text": "Stop cancelled"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "cancelled": true
+  },
+  {
+    "tripId": "1|1969|10|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": null,
+    "plannedWhen": "2023-04-21T08:41:00+02:00",
+    "prognosedWhen": null,
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Wartenberg",
+    "line": {
+      "type": "line",
+      "id": "s75",
+      "fahrtNr": "20331",
+      "name": "S75",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 75,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "192197",
+        "type": "warning",
+        "summary": "Warnstreik am Freitag, den 21. April ca. 3 bis 11 Uhr",
+        "text": "Diese Fahrt entfällt. Wegen des Warnstreiks der Gewerkschaft EVG ist der Zugverkehr der S-Bahn Berlin eingestellt. Die zeitliche Aufnahme des S-Bahnverkehrs am heutigen Nachmittag hängt vom Streikverlauf ab. Bitte rechnen Sie auch nach Streikende mit Einschränkungen im S-Bahnverkehr. \nFür Fahrten innerhalb Berlins nutzen Sie bitte die Verkehrsmittel der BVG (U-Bahn, Tram, Bus). Auch der Regional- und Fernverkehr der Deutschen Bahn sowie weiterer Eisenbahnverkehrsunternehmen (u.a. Ostdeutsche Eisenbahn (ODEG), Niederbarnimer Eisenbahn (NEB)) ist von diesem Warnstreik betroffen. \nBitte informieren Sie sich entsprechend bei diesen Unternehmen.The EVG Railway &#38; Transport Union is striking S-Bahn services on Friday, 21 April from 3am to 11am in the morning. No train journeys can be offered during this time! Please expect restrictions even after the strike has ended. \nPlease use for journey within berlin the BVG (U-Bahn, Tram, Bus).",
+        "icon": {
+          "type": "HIM4",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "S-Bahn Berlin",
+        "categories": [
+          4
+        ],
+        "validFrom": "2023-04-21T02:50:00+02:00",
+        "validUntil": "2023-04-21T11:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.journey.cancelled",
+        "text": "S75 has been cancelled"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.stop.cancelled",
+        "text": "Stop cancelled"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "cancelled": true
+  },
+  {
+    "tripId": "1|56905|1|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": null,
+    "plannedWhen": "2023-04-21T08:41:00+02:00",
+    "prognosedWhen": null,
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "Flughafen BER - Terminal 5",
+    "line": {
+      "type": "line",
+      "id": "rb32",
+      "fahrtNr": "1164",
+      "name": "RB32",
+      "public": true,
+      "adminCode": "800165",
+      "productName": "RB",
+      "mode": "train",
+      "product": "regional",
+      "operator": {
+        "type": "operator",
+        "id": "db-regio-ag",
+        "name": "DB Regio AG"
+      },
+      "symbol": "RB",
+      "nr": 32,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "type": "hint",
+        "code": "jd",
+        "text": "Fahrzeuggebundene Einstiegshilfe vorhanden"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.journey.cancelled",
+        "text": "RB32 has been cancelled"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.stop.cancelled",
+        "text": "Stop cancelled"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "cancelled": true
+  },
+  {
+    "tripId": "1|1542|9|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": null,
+    "plannedWhen": "2023-04-21T08:43:00+02:00",
+    "prognosedWhen": null,
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Hoppegarten",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "17256",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "192218",
+        "type": "warning",
+        "summary": "Warnstreik am Freitag, den 21. April ca. 3 bis 11 Uhr.",
+        "text": "Diese Fahrt entfällt. Wegen des Warnstreiks der Gewerkschaft EVG ist der Zugverkehr der S-Bahn Berlin eingestellt. Die zeitliche Aufnahme des S-Bahnverkehrs am heutigen Nachmittag hängt vom Streikverlauf ab. Bitte rechnen Sie auch nach Streikende mit Einschränkungen im S-Bahnverkehr. \nFür Fahrten innerhalb Berlins nutzen Sie bitte die Verkehrsmittel der BVG (U-Bahn, Tram, Bus). Auch der Regional- und Fernverkehr der Deutschen Bahn sowie weiterer Eisenbahnverkehrsunternehmen (u.a. Ostdeutsche Eisenbahn (ODEG), Niederbarnimer Eisenbahn (NEB)) ist von diesem Warnstreik betroffen. \nBitte informieren Sie sich entsprechend bei diesen Unternehmen. The EVG Railway &#38; Transport Union is striking S-Bahn services on Friday, 21 April from 3am to 11am in the morning. No train journeys can be offered during this time! Please expect restrictions even after the strike has ended. \nPlease use for journey within berlin the BVG (U-Bahn, Tram, Bus).",
+        "icon": {
+          "type": "HIM4",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "S-Bahn Berlin",
+        "categories": [
+          4
+        ],
+        "validFrom": "2023-04-21T02:50:00+02:00",
+        "validUntil": "2023-04-21T11:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.journey.cancelled",
+        "text": "S5 has been cancelled"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.stop.cancelled",
+        "text": "Stop cancelled"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "cancelled": true
+  },
+  {
+    "tripId": "1|1978|9|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": null,
+    "plannedWhen": "2023-04-21T08:43:00+02:00",
+    "prognosedWhen": null,
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S+U Warschauer Str.",
+    "line": {
+      "type": "line",
+      "id": "s75",
+      "fahrtNr": "20274",
+      "name": "S75",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 75,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "192197",
+        "type": "warning",
+        "summary": "Warnstreik am Freitag, den 21. April ca. 3 bis 11 Uhr",
+        "text": "Diese Fahrt entfällt. Wegen des Warnstreiks der Gewerkschaft EVG ist der Zugverkehr der S-Bahn Berlin eingestellt. Die zeitliche Aufnahme des S-Bahnverkehrs am heutigen Nachmittag hängt vom Streikverlauf ab. Bitte rechnen Sie auch nach Streikende mit Einschränkungen im S-Bahnverkehr. \nFür Fahrten innerhalb Berlins nutzen Sie bitte die Verkehrsmittel der BVG (U-Bahn, Tram, Bus). Auch der Regional- und Fernverkehr der Deutschen Bahn sowie weiterer Eisenbahnverkehrsunternehmen (u.a. Ostdeutsche Eisenbahn (ODEG), Niederbarnimer Eisenbahn (NEB)) ist von diesem Warnstreik betroffen. \nBitte informieren Sie sich entsprechend bei diesen Unternehmen.The EVG Railway &#38; Transport Union is striking S-Bahn services on Friday, 21 April from 3am to 11am in the morning. No train journeys can be offered during this time! Please expect restrictions even after the strike has ended. \nPlease use for journey within berlin the BVG (U-Bahn, Tram, Bus).",
+        "icon": {
+          "type": "HIM4",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "S-Bahn Berlin",
+        "categories": [
+          4
+        ],
+        "validFrom": "2023-04-21T02:50:00+02:00",
+        "validUntil": "2023-04-21T11:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.journey.cancelled",
+        "text": "S75 has been cancelled"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.stop.cancelled",
+        "text": "Stop cancelled"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "cancelled": true
+  },
+  {
+    "tripId": "1|1693|5|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": null,
+    "plannedWhen": "2023-04-21T08:46:00+02:00",
+    "prognosedWhen": null,
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Ahrensfelde",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "18808",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "192213",
+        "type": "warning",
+        "summary": "Strike by the EVG Union. No S-Bahn services on Friday, 21 April from 3am to 11am",
+        "text": "The EVG Railway &#38; Transport Union is striking S-Bahn services on Friday, 21 April from 3am to 11am in the morning. No train journeys can be offered during this time! Please expect restrictions even after the strike has ended. \nPlease use for journey within berlin the BVG (U-Bahn, Tram, Bus).",
+        "icon": {
+          "type": "HIM4",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "S-Bahn Berlin",
+        "categories": [
+          4
+        ],
+        "validFrom": "2023-04-21T02:50:00+02:00",
+        "validUntil": "2023-04-21T11:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.journey.cancelled",
+        "text": "S7 has been cancelled"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.stop.cancelled",
+        "text": "Stop cancelled"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "cancelled": true
+  },
+  {
+    "tripId": "1|1639|8|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": null,
+    "plannedWhen": "2023-04-21T08:48:00+02:00",
+    "prognosedWhen": null,
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Mahlsdorf",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "17615",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "192217",
+        "type": "warning",
+        "summary": "Warnstreik am Freitag, den 21. April ca. 3 bis 11 Uhr",
+        "text": "Diese Fahrt entfällt. Wegen des Warnstreiks der Gewerkschaft EVG ist der Zugverkehr der S-Bahn Berlin eingestellt. Die zeitliche Aufnahme des S-Bahnverkehrs am heutigen Nachmittag hängt vom Streikverlauf ab. Bitte rechnen Sie auch nach Streikende mit Einschränkungen im S-Bahnverkehr. \nFür Fahrten innerhalb Berlins nutzen Sie bitte die Verkehrsmittel der BVG (U-Bahn, Tram, Bus). Auch der Regional- und Fernverkehr der Deutschen Bahn sowie weiterer Eisenbahnverkehrsunternehmen (u.a. Ostdeutsche Eisenbahn (ODEG), Niederbarnimer Eisenbahn (NEB)) ist von diesem Warnstreik betroffen. \nBitte informieren Sie sich entsprechend bei diesen Unternehmen. The EVG Railway &#38; Transport Union is striking S-Bahn services on Friday, 21 April from 3am to 11am in the morning. No train journeys can be offered during this time! Please expect restrictions even after the strike has ended. \nPlease use for journey within berlin the BVG (U-Bahn, Tram, Bus).",
+        "icon": {
+          "type": "HIM4",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "S-Bahn Berlin",
+        "categories": [
+          4
+        ],
+        "validFrom": "2023-04-21T02:50:00+02:00",
+        "validUntil": "2023-04-21T11:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.journey.cancelled",
+        "text": "S5 has been cancelled"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.stop.cancelled",
+        "text": "Stop cancelled"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "cancelled": true
+  },
+  {
+    "tripId": "1|1871|2|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": null,
+    "plannedWhen": "2023-04-21T08:48:00+02:00",
+    "prognosedWhen": null,
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Potsdam Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "19011",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "192213",
+        "type": "warning",
+        "summary": "Strike by the EVG Union. No S-Bahn services on Friday, 21 April from 3am to 11am",
+        "text": "The EVG Railway &#38; Transport Union is striking S-Bahn services on Friday, 21 April from 3am to 11am in the morning. No train journeys can be offered during this time! Please expect restrictions even after the strike has ended. \nPlease use for journey within berlin the BVG (U-Bahn, Tram, Bus).",
+        "icon": {
+          "type": "HIM4",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "S-Bahn Berlin",
+        "categories": [
+          4
+        ],
+        "validFrom": "2023-04-21T02:50:00+02:00",
+        "validUntil": "2023-04-21T11:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.journey.cancelled",
+        "text": "S7 has been cancelled"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.stop.cancelled",
+        "text": "Stop cancelled"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "cancelled": true
+  },
+  {
+    "tripId": "1|1575|0|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": null,
+    "plannedWhen": "2023-04-21T08:50:00+02:00",
+    "prognosedWhen": null,
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Westkreuz",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "16947",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "192217",
+        "type": "warning",
+        "summary": "Warnstreik am Freitag, den 21. April ca. 3 bis 11 Uhr",
+        "text": "Diese Fahrt entfällt. Wegen des Warnstreiks der Gewerkschaft EVG ist der Zugverkehr der S-Bahn Berlin eingestellt. Die zeitliche Aufnahme des S-Bahnverkehrs am heutigen Nachmittag hängt vom Streikverlauf ab. Bitte rechnen Sie auch nach Streikende mit Einschränkungen im S-Bahnverkehr. \nFür Fahrten innerhalb Berlins nutzen Sie bitte die Verkehrsmittel der BVG (U-Bahn, Tram, Bus). Auch der Regional- und Fernverkehr der Deutschen Bahn sowie weiterer Eisenbahnverkehrsunternehmen (u.a. Ostdeutsche Eisenbahn (ODEG), Niederbarnimer Eisenbahn (NEB)) ist von diesem Warnstreik betroffen. \nBitte informieren Sie sich entsprechend bei diesen Unternehmen. The EVG Railway &#38; Transport Union is striking S-Bahn services on Friday, 21 April from 3am to 11am in the morning. No train journeys can be offered during this time! Please expect restrictions even after the strike has ended. \nPlease use for journey within berlin the BVG (U-Bahn, Tram, Bus).",
+        "icon": {
+          "type": "HIM4",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "S-Bahn Berlin",
+        "categories": [
+          4
+        ],
+        "validFrom": "2023-04-21T02:50:00+02:00",
+        "validUntil": "2023-04-21T11:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.journey.cancelled",
+        "text": "S5 has been cancelled"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.stop.cancelled",
+        "text": "Stop cancelled"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "cancelled": true
+  },
+  {
+    "tripId": "1|26465|8|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-04-21T08:41:00+02:00",
+    "plannedWhen": "2023-04-21T08:37:00+02:00",
+    "delay": 240,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Ostbahnhof",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "32607",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "Handicap accessible"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.509723,
+      "longitude": 13.498157
+    }
+  },
+  {
+    "tripId": "1|45364|0|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2023-04-21T08:41:00+02:00",
+    "plannedWhen": "2023-04-21T08:41:00+02:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "U Kaulsdorf-Nord",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "14610",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "Handicap accessible"
+      },
+      {
+        "id": "187571",
+        "type": "warning",
+        "summary": "Buche jetzt deine flexible Fahrt über die BVG-Muva-App!",
+        "text": "Oder bestelle dir dein Muva per Telefon: 030 256 23333\n<a href=\"https://www.bvg.de/de/abos-und-tickets/alle-apps/bvg-muva-app\" target=\"_blank\" rel=\"noopener\">Download!</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          0
+        ],
+        "validFrom": "2023-02-03T14:40:00+01:00",
+        "validUntil": "2023-07-31T18:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.509804,
+      "longitude": 13.50338
+    }
+  },
+  {
+    "tripId": "1|26511|0|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-04-21T08:42:00+02:00",
+    "plannedWhen": "2023-04-21T08:40:00+02:00",
+    "delay": 120,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "S Storkower Str.",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "32660",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "Handicap accessible"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.510667,
+      "longitude": 13.503883
+    }
+  },
+  {
+    "tripId": "1|29228|5|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-04-21T08:43:00+02:00",
+    "plannedWhen": "2023-04-21T08:42:00+02:00",
+    "delay": 60,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Karlshorst",
+    "line": {
+      "type": "line",
+      "id": "296",
+      "fahrtNr": "36692",
+      "name": "296",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 296,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "Handicap accessible"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.508779,
+      "longitude": 13.506526
+    }
+  },
+  {
+    "tripId": "1|45418|17|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2023-04-21T08:43:00+02:00",
+    "plannedWhen": "2023-04-21T08:43:00+02:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S+U Berlin Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "14151",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "Handicap accessible"
+      },
+      {
+        "id": "187571",
+        "type": "warning",
+        "summary": "Buche jetzt deine flexible Fahrt über die BVG-Muva-App!",
+        "text": "Oder bestelle dir dein Muva per Telefon: 030 256 23333\n<a href=\"https://www.bvg.de/de/abos-und-tickets/alle-apps/bvg-muva-app\" target=\"_blank\" rel=\"noopener\">Download!</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          0
+        ],
+        "validFrom": "2023-02-03T14:40:00+01:00",
+        "validUntil": "2023-07-31T18:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.51358,
+      "longitude": 13.475954
+    }
+  },
+  {
+    "tripId": "1|27685|6|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160020",
+      "name": "S+U Lichtenberg/Siegfriedstr.",
+      "location": {
+        "type": "location",
+        "id": "900160020",
+        "latitude": 52.511953,
+        "longitude": 13.497654
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160020"
+    },
+    "when": "2023-04-21T08:46:00+02:00",
+    "plannedWhen": "2023-04-21T08:42:00+02:00",
+    "delay": 240,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "Siedlung Wartenberg/Str. 5",
+    "line": {
+      "type": "line",
+      "id": "256",
+      "fahrtNr": "34248",
+      "name": "256",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 256,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "Handicap accessible"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.527387,
+      "longitude": 13.499793
+    }
+  },
+  {
+    "tripId": "1|45353|10|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2023-04-21T08:46:00+02:00",
+    "plannedWhen": "2023-04-21T08:46:00+02:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "U Kaulsdorf-Nord",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "14611",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "Handicap accessible"
+      },
+      {
+        "id": "187571",
+        "type": "warning",
+        "summary": "Buche jetzt deine flexible Fahrt über die BVG-Muva-App!",
+        "text": "Oder bestelle dir dein Muva per Telefon: 030 256 23333\n<a href=\"https://www.bvg.de/de/abos-und-tickets/alle-apps/bvg-muva-app\" target=\"_blank\" rel=\"noopener\">Download!</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          0
+        ],
+        "validFrom": "2023-02-03T14:40:00+01:00",
+        "validUntil": "2023-07-31T18:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.499179,
+      "longitude": 13.544389
+    }
+  },
+  {
+    "tripId": "1|56394|0|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-04-21T08:46:00+02:00",
+    "plannedWhen": "2023-04-21T08:46:00+02:00",
+    "delay": 0,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "Flughafen BER - Terminal 1-2",
+    "line": {
+      "type": "line",
+      "id": "re8",
+      "fahrtNr": "94070",
+      "name": "RE8",
+      "public": true,
+      "adminCode": "ODRE8_",
+      "productName": "RE",
+      "mode": "train",
+      "product": "regional",
+      "operator": {
+        "type": "operator",
+        "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+        "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+      },
+      "symbol": "RE",
+      "nr": 8,
+      "metro": false,
+      "express": true,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "nh",
+        "text": "Fahrradmitnahme leicht gemacht: www.vbb.de/radimregio"
+      },
+      {
+        "id": "192266",
+        "type": "warning",
+        "summary": "Großstörung.",
+        "text": "Aufgrund des bundesweiten Streiks der EVG kommt es am 21.04.2023 bei allen Linien der ODEG zwischen 03:00 Uhr und 11:00 Uhr zu Zugausfällen und Einschränkungen im Betriebsablauf. Weitere Informationen finden Sie hier: https://www.odeg.de/streik",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 32,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T23:59:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.502757,
+      "longitude": 13.469392
+    }
+  },
+  {
+    "tripId": "1|17517|1|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-04-21T08:49:00+02:00",
+    "plannedWhen": "2023-04-21T08:47:00+02:00",
+    "delay": 120,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "Waldesruh, Mahlsdorfer Allee",
+    "line": {
+      "type": "line",
+      "id": "108",
+      "fahrtNr": "19112",
+      "name": "108",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 108,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "Handicap accessible"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.509696,
+      "longitude": 13.546537
+    }
+  },
+  {
+    "tripId": "1|45408|11|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2023-04-21T08:49:00+02:00",
+    "plannedWhen": "2023-04-21T08:48:00+02:00",
+    "delay": 60,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S+U Berlin Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "14262",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "Handicap accessible"
+      },
+      {
+        "id": "187571",
+        "type": "warning",
+        "summary": "Buche jetzt deine flexible Fahrt über die BVG-Muva-App!",
+        "text": "Oder bestelle dir dein Muva per Telefon: 030 256 23333\n<a href=\"https://www.bvg.de/de/abos-und-tickets/alle-apps/bvg-muva-app\" target=\"_blank\" rel=\"noopener\">Download!</a>",
+        "icon": {
+          "type": "HIM0",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          0
+        ],
+        "validFrom": "2023-02-03T14:40:00+01:00",
+        "validUntil": "2023-07-31T18:00:00+02:00"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.518793,
+      "longitude": 13.427637
+    }
+  },
+  {
+    "tripId": "1|26512|0|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-04-21T08:50:00+02:00",
+    "plannedWhen": "2023-04-21T08:50:00+02:00",
+    "delay": 0,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Storkower Str.",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "32661",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "Handicap accessible"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.521931,
+      "longitude": 13.499452
+    }
+  },
+  {
+    "tripId": "1|26465|9|86|21042023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-04-21T08:52:00+02:00",
+    "plannedWhen": "2023-04-21T08:47:00+02:00",
+    "delay": 300,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Ostbahnhof",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "32607",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "bf",
+        "text": "Handicap accessible"
+      },
+      {
+        "id": "192172",
+        "type": "warning",
+        "summary": "Rail strike on Friday, 21 April until approx. 3 p.m.",
+        "text": "Due to a strike by the EVG trade union, there will be considerable restrictions. Almost all train journeys of RE, RB and S-Bahn trains as well as long-distance trains are cancelled. Subways, trams, buses and ferries will run. More details at www.vbb.de/streik.",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2023-04-21T00:00:00+02:00",
+        "validUntil": "2023-04-21T12:00:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.502927,
+      "longitude": 13.474183
+    }
+  }
+]
