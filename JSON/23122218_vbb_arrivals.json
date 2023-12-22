@@ -1,0 +1,1458 @@
+[
+  {
+    "tripId": "1|54139|8|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": null,
+    "plannedWhen": "2023-12-22T19:41:00+01:00",
+    "prognosedWhen": null,
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": "20",
+    "prognosedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Schönefeld (bei Berlin)",
+    "line": {
+      "type": "line",
+      "id": "rb32",
+      "fahrtNr": "721",
+      "name": "RB32",
+      "public": true,
+      "adminCode": "800165",
+      "productName": "RB",
+      "mode": "train",
+      "product": "regional",
+      "operator": {
+        "type": "operator",
+        "id": "db-regio-ag",
+        "name": "DB Regio AG"
+      },
+      "symbol": "RB",
+      "nr": 32,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "type": "hint",
+        "code": "hz",
+        "text": "Fahrzeuggebundene Einstiegshilfe vorhanden"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.journey.cancelled",
+        "text": "RB32 has been cancelled"
+      },
+      {
+        "type": "status",
+        "code": "text.realtime.stop.cancelled",
+        "text": "Stop cancelled"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000120003",
+      "name": "S Ostkreuz",
+      "location": {
+        "type": "location",
+        "id": "900120003",
+        "latitude": 52.503116,
+        "longitude": 13.469221
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900120003"
+    },
+    "destination": null,
+    "cancelled": true
+  },
+  {
+    "tripId": "1|26066|8|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-12-22T19:39:00+01:00",
+    "plannedWhen": "2023-12-22T19:39:00+01:00",
+    "delay": 0,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Ostbahnhof",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "37447",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": {
+      "type": "stop",
+      "id": "900000160743",
+      "name": "Margaretenstr. [Ri. Lichtenberger Br.]",
+      "location": {
+        "type": "location",
+        "id": "900160743",
+        "latitude": 52.507575,
+        "longitude": 13.496854
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160743"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.511476,
+      "longitude": 13.501879
+    }
+  },
+  {
+    "tripId": "1|26104|14|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-12-22T19:39:00+01:00",
+    "plannedWhen": "2023-12-22T19:39:00+01:00",
+    "delay": 0,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Storkower Str.",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "37489",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": {
+      "type": "stop",
+      "id": "900000160537",
+      "name": "Einbecker Str./Rosenfelder Str.",
+      "location": {
+        "type": "location",
+        "id": "900160537",
+        "latitude": 52.509786,
+        "longitude": 13.503497
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160537"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.508752,
+      "longitude": 13.497438
+    }
+  },
+  {
+    "tripId": "1|1685|0|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-12-22T19:40:00+01:00",
+    "plannedWhen": "2023-12-22T19:40:00+01:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Westkreuz",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "19095",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.509175,
+      "longitude": 13.495631
+    }
+  },
+  {
+    "tripId": "1|2134|4|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-12-22T19:41:00+01:00",
+    "plannedWhen": "2023-12-22T19:41:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Wartenberg",
+    "line": {
+      "type": "line",
+      "id": "s75",
+      "fahrtNr": "21101",
+      "name": "S75",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 75,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.513697,
+      "longitude": 13.51245
+    }
+  },
+  {
+    "tripId": "1|44054|2|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2023-12-22T19:41:00+01:00",
+    "plannedWhen": "2023-12-22T19:41:00+01:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "U Kaulsdorf-Nord",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "15738",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000161512",
+      "name": "U Friedrichsfelde",
+      "location": {
+        "type": "location",
+        "id": "900161512",
+        "latitude": 52.505462,
+        "longitude": 13.513547
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900161512"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.508213,
+      "longitude": 13.508414
+    }
+  },
+  {
+    "tripId": "1|27258|3|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160020",
+      "name": "S+U Lichtenberg/Siegfriedstr.",
+      "location": {
+        "type": "location",
+        "id": "900160020",
+        "latitude": 52.511953,
+        "longitude": 13.497654
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160020"
+    },
+    "when": "2023-12-22T19:42:00+01:00",
+    "plannedWhen": "2023-12-22T19:42:00+01:00",
+    "delay": 0,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "Siedlung Wartenberg/Str. 5",
+    "line": {
+      "type": "line",
+      "id": "256",
+      "fahrtNr": "38814",
+      "name": "256",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 256,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": {
+      "type": "stop",
+      "id": "900000160526",
+      "name": "Fanningerstr.",
+      "location": {
+        "type": "location",
+        "id": "900160526",
+        "latitude": 52.514398,
+        "longitude": 13.498274
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160526"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.517993,
+      "longitude": 13.499155
+    }
+  },
+  {
+    "tripId": "1|1738|0|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-12-22T19:43:00+01:00",
+    "plannedWhen": "2023-12-22T19:43:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Hoppegarten",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "19636",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.514344,
+      "longitude": 13.534006
+    }
+  },
+  {
+    "tripId": "1|2147|0|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-12-22T19:43:00+01:00",
+    "plannedWhen": "2023-12-22T19:43:00+01:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S+U Warschauer Str.",
+    "line": {
+      "type": "line",
+      "id": "s75",
+      "fahrtNr": "21032",
+      "name": "S75",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 75,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.502487,
+      "longitude": 13.472942
+    }
+  },
+  {
+    "tripId": "1|44104|6|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2023-12-22T19:43:00+01:00",
+    "plannedWhen": "2023-12-22T19:43:00+01:00",
+    "delay": null,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S+U Berlin Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "15335",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160005",
+      "name": "U Magdalenenstr.",
+      "location": {
+        "type": "location",
+        "id": "900160005",
+        "latitude": 52.512456,
+        "longitude": 13.487496
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160005"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.51384,
+      "longitude": 13.473419
+    }
+  },
+  {
+    "tripId": "1|1905|1|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-12-22T19:46:00+01:00",
+    "plannedWhen": "2023-12-22T19:46:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Ahrensfelde",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "20262",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.527926,
+      "longitude": 13.53611
+    }
+  },
+  {
+    "tripId": "1|16862|3|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-12-22T19:46:00+01:00",
+    "plannedWhen": "2023-12-22T19:47:00+01:00",
+    "delay": -60,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "Waldesruh, Mahlsdorfer Allee",
+    "line": {
+      "type": "line",
+      "id": "108",
+      "fahrtNr": "24708",
+      "name": "108",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 108,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": {
+      "type": "stop",
+      "id": "900000160015",
+      "name": "Löwenberger Str.",
+      "location": {
+        "type": "location",
+        "id": "900160015",
+        "latitude": 52.510721,
+        "longitude": 13.50631
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160015"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.510281,
+      "longitude": 13.526626
+    }
+  },
+  {
+    "tripId": "1|44017|2|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2023-12-22T19:47:00+01:00",
+    "plannedWhen": "2023-12-22T19:46:00+01:00",
+    "delay": 60,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "U Hönow",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "15737",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000161512",
+      "name": "U Friedrichsfelde",
+      "location": {
+        "type": "location",
+        "id": "900161512",
+        "latitude": 52.505462,
+        "longitude": 13.513547
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900161512"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.502505,
+      "longitude": 13.555931
+    }
+  },
+  {
+    "tripId": "1|28901|0|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-12-22T19:48:00+01:00",
+    "plannedWhen": "2023-12-22T19:47:00+01:00",
+    "delay": 60,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Karlshorst",
+    "line": {
+      "type": "line",
+      "id": "296",
+      "fahrtNr": "41251",
+      "name": "296",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 296,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": {
+      "type": "stop",
+      "id": "900000160537",
+      "name": "Einbecker Str./Rosenfelder Str.",
+      "location": {
+        "type": "location",
+        "id": "900160537",
+        "latitude": 52.509786,
+        "longitude": 13.503497
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160537"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.49437,
+      "longitude": 13.514868
+    }
+  },
+  {
+    "tripId": "1|2064|8|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2023-12-22T19:48:00+01:00",
+    "plannedWhen": "2023-12-22T19:48:00+01:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Potsdam Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "20525",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.508249,
+      "longitude": 13.441318
+    }
+  },
+  {
+    "tripId": "1|44117|9|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2023-12-22T19:48:00+01:00",
+    "plannedWhen": "2023-12-22T19:48:00+01:00",
+    "delay": null,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S+U Berlin Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "15336",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160005",
+      "name": "U Magdalenenstr.",
+      "location": {
+        "type": "location",
+        "id": "900160005",
+        "latitude": 52.512456,
+        "longitude": 13.487496
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160005"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.518146,
+      "longitude": 13.430981
+    }
+  },
+  {
+    "tripId": "1|26112|0|86|22122023",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2023-12-22T19:50:00+01:00",
+    "plannedWhen": "2023-12-22T19:49:00+01:00",
+    "delay": 60,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Storkower Str.",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "37497",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": {
+      "type": "stop",
+      "id": "900000160537",
+      "name": "Einbecker Str./Rosenfelder Str.",
+      "location": {
+        "type": "location",
+        "id": "900160537",
+        "latitude": 52.509786,
+        "longitude": 13.503497
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160537"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.522623,
+      "longitude": 13.499488
+    }
+  }
+]
