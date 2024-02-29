@@ -1,0 +1,2637 @@
+[
+  {
+    "tripId": "1|2216|30|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-02-29T17:39:00+01:00",
+    "plannedWhen": "2024-02-29T17:38:00+01:00",
+    "delay": 60,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Potsdam Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "24586",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.512897,
+      "longitude": 13.506706
+    }
+  },
+  {
+    "tripId": "1|27949|2|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2024-02-29T17:39:00+01:00",
+    "plannedWhen": "2024-02-29T17:39:00+01:00",
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Storkower Str.",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "41796",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "214345",
+        "type": "warning",
+        "summary": ".Strike at BVG",
+        "text": "From Thursday to Friday 2 PM, U-Bahn, Tram and most bus lines will not be running. Please select only S-Bahn Trains and \"Regio\" in the app or website to find alternative S-Bahn and regional services. The BVG will be running again from 2 PM on Friday, but there may still be cancellations until the evening. Journeys that take place have real-time information (+ or - minutes).",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-29T03:00:00+01:00",
+        "validUntil": "2024-03-01T18:00:00+01:00",
+        "modified": "2024-02-29T12:41:32+01:00"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160537",
+      "name": "Einbecker Str./Rosenfelder Str.",
+      "location": {
+        "type": "location",
+        "id": "900160537",
+        "latitude": 52.509786,
+        "longitude": 13.503497
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160537"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.508591,
+      "longitude": 13.497348
+    }
+  },
+  {
+    "tripId": "1|1761|0|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-02-29T17:41:00+01:00",
+    "plannedWhen": "2024-02-29T17:40:00+01:00",
+    "delay": 60,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Westkreuz",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "22905",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.50344,
+      "longitude": 13.484296
+    }
+  },
+  {
+    "tripId": "1|2412|10|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-02-29T17:41:00+01:00",
+    "plannedWhen": "2024-02-29T17:41:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Wartenberg",
+    "line": {
+      "type": "line",
+      "id": "s75",
+      "fahrtNr": "25643",
+      "name": "S75",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 75,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.513598,
+      "longitude": 13.511821
+    }
+  },
+  {
+    "tripId": "1|46008|10|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2024-02-29T17:41:00+01:00",
+    "plannedWhen": "2024-02-29T17:41:00+01:00",
+    "delay": null,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "U Hönow",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "15185",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "214345",
+        "type": "warning",
+        "summary": ".Strike at BVG",
+        "text": "From Thursday to Friday 2 PM, U-Bahn, Tram and most bus lines will not be running. Please select only S-Bahn Trains and \"Regio\" in the app or website to find alternative S-Bahn and regional services. The BVG will be running again from 2 PM on Friday, but there may still be cancellations until the evening. Journeys that take place have real-time information (+ or - minutes).",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-29T03:00:00+01:00",
+        "validUntil": "2024-03-01T18:00:00+01:00",
+        "modified": "2024-02-29T12:41:32+01:00"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000161512",
+      "name": "U Friedrichsfelde",
+      "location": {
+        "type": "location",
+        "id": "900161512",
+        "latitude": 52.505462,
+        "longitude": 13.513547
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900161512"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.508366,
+      "longitude": 13.507946
+    }
+  },
+  {
+    "tripId": "1|46118|11|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2024-02-29T17:41:00+01:00",
+    "plannedWhen": "2024-02-29T17:41:00+01:00",
+    "delay": null,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S+U Berlin Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "14697",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "214345",
+        "type": "warning",
+        "summary": ".Strike at BVG",
+        "text": "From Thursday to Friday 2 PM, U-Bahn, Tram and most bus lines will not be running. Please select only S-Bahn Trains and \"Regio\" in the app or website to find alternative S-Bahn and regional services. The BVG will be running again from 2 PM on Friday, but there may still be cancellations until the evening. Journeys that take place have real-time information (+ or - minutes).",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-29T03:00:00+01:00",
+        "validUntil": "2024-03-01T18:00:00+01:00",
+        "modified": "2024-02-29T12:41:32+01:00"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160005",
+      "name": "U Magdalenenstr.",
+      "location": {
+        "type": "location",
+        "id": "900160005",
+        "latitude": 52.512456,
+        "longitude": 13.487496
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160005"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.512034,
+      "longitude": 13.491271
+    }
+  },
+  {
+    "tripId": "1|56513|3|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-02-29T17:41:00+01:00",
+    "plannedWhen": "2024-02-29T17:41:00+01:00",
+    "delay": 0,
+    "platform": "20",
+    "plannedPlatform": "20",
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "S Schönefeld (bei Berlin)",
+    "line": {
+      "type": "line",
+      "id": "rb32",
+      "fahrtNr": "961",
+      "name": "RB32",
+      "public": true,
+      "adminCode": "800165",
+      "productName": "RB",
+      "mode": "train",
+      "product": "regional",
+      "operator": {
+        "type": "operator",
+        "id": "db-regio-ag",
+        "name": "DB Regio AG"
+      },
+      "symbol": "RB",
+      "nr": 32,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "type": "hint",
+        "code": "id",
+        "text": "Fahrzeuggebundene Einstiegshilfe vorhanden"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000120003",
+      "name": "S Ostkreuz",
+      "location": {
+        "type": "location",
+        "id": "900120003",
+        "latitude": 52.503116,
+        "longitude": 13.469221
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900120003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.506766,
+      "longitude": 13.489869
+    }
+  },
+  {
+    "tripId": "1|1900|5|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-02-29T17:43:00+01:00",
+    "plannedWhen": "2024-02-29T17:43:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Hoppegarten",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "23772",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.514263,
+      "longitude": 13.533368
+    }
+  },
+  {
+    "tripId": "1|61355|14|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160020",
+      "name": "S+U Lichtenberg/Siegfriedstr.",
+      "location": {
+        "type": "location",
+        "id": "900160020",
+        "latitude": 52.511953,
+        "longitude": 13.497654
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160020"
+    },
+    "when": "2024-02-29T17:43:00+01:00",
+    "plannedWhen": "2024-02-29T17:43:00+01:00",
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S+U Lichtenberg/Gudrunstr.",
+    "line": {
+      "type": "line",
+      "id": "21",
+      "fahrtNr": "258",
+      "name": "21",
+      "public": true,
+      "adminCode": "BVT",
+      "productName": "Tram",
+      "mode": "train",
+      "product": "tram",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 21,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "214345",
+        "type": "warning",
+        "summary": ".Strike at BVG",
+        "text": "From Thursday to Friday 2 PM, U-Bahn, Tram and most bus lines will not be running. Please select only S-Bahn Trains and \"Regio\" in the app or website to find alternative S-Bahn and regional services. The BVG will be running again from 2 PM on Friday, but there may still be cancellations until the evening. Journeys that take place have real-time information (+ or - minutes).",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-29T03:00:00+01:00",
+        "validUntil": "2024-03-01T18:00:00+01:00",
+        "modified": "2024-02-29T12:41:32+01:00"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160021",
+      "name": "S+U Lichtenberg/Gudrunstr.",
+      "location": {
+        "type": "location",
+        "id": "900160021",
+        "latitude": 52.512366,
+        "longitude": 13.500063
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160021"
+    },
+    "destination": null
+  },
+  {
+    "tripId": "1|2424|9|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-02-29T17:44:00+01:00",
+    "plannedWhen": "2024-02-29T17:43:00+01:00",
+    "delay": 60,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "S Ostbahnhof",
+    "line": {
+      "type": "line",
+      "id": "s75",
+      "fahrtNr": "25525",
+      "name": "S75",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 75,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.505076,
+      "longitude": 13.457103
+    }
+  },
+  {
+    "tripId": "1|3705|9|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-02-29T17:45:00+01:00",
+    "plannedWhen": "2024-02-29T17:45:00+01:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S+U Warschauer Str.",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "24495",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.502999,
+      "longitude": 13.469158
+    }
+  },
+  {
+    "tripId": "1|30638|13|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2024-02-29T17:45:00+01:00",
+    "plannedWhen": "2024-02-29T17:45:00+01:00",
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Karlshorst",
+    "line": {
+      "type": "line",
+      "id": "296",
+      "fahrtNr": "45450",
+      "name": "296",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 296,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "214345",
+        "type": "warning",
+        "summary": ".Strike at BVG",
+        "text": "From Thursday to Friday 2 PM, U-Bahn, Tram and most bus lines will not be running. Please select only S-Bahn Trains and \"Regio\" in the app or website to find alternative S-Bahn and regional services. The BVG will be running again from 2 PM on Friday, but there may still be cancellations until the evening. Journeys that take place have real-time information (+ or - minutes).",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-29T03:00:00+01:00",
+        "validUntil": "2024-03-01T18:00:00+01:00",
+        "modified": "2024-02-29T12:41:32+01:00"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160537",
+      "name": "Einbecker Str./Rosenfelder Str.",
+      "location": {
+        "type": "location",
+        "id": "900160537",
+        "latitude": 52.509786,
+        "longitude": 13.503497
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160537"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.505525,
+      "longitude": 13.512369
+    }
+  },
+  {
+    "tripId": "1|2184|32|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-02-29T17:46:00+01:00",
+    "plannedWhen": "2024-02-29T17:46:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Ahrensfelde",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "24763",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.527279,
+      "longitude": 13.53637
+    }
+  },
+  {
+    "tripId": "1|29038|6|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160020",
+      "name": "S+U Lichtenberg/Siegfriedstr.",
+      "location": {
+        "type": "location",
+        "id": "900160020",
+        "latitude": 52.511953,
+        "longitude": 13.497654
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160020"
+    },
+    "when": "2024-02-29T17:46:00+01:00",
+    "plannedWhen": "2024-02-29T17:46:00+01:00",
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "Siedlung Wartenberg/Str. 5",
+    "line": {
+      "type": "line",
+      "id": "256",
+      "fahrtNr": "43047",
+      "name": "256",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 256,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "214345",
+        "type": "warning",
+        "summary": ".Strike at BVG",
+        "text": "From Thursday to Friday 2 PM, U-Bahn, Tram and most bus lines will not be running. Please select only S-Bahn Trains and \"Regio\" in the app or website to find alternative S-Bahn and regional services. The BVG will be running again from 2 PM on Friday, but there may still be cancellations until the evening. Journeys that take place have real-time information (+ or - minutes).",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-29T03:00:00+01:00",
+        "validUntil": "2024-03-01T18:00:00+01:00",
+        "modified": "2024-02-29T12:41:32+01:00"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160526",
+      "name": "Fanningerstr.",
+      "location": {
+        "type": "location",
+        "id": "900160526",
+        "latitude": 52.514398,
+        "longitude": 13.498274
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160526"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.528915,
+      "longitude": 13.499901
+    }
+  },
+  {
+    "tripId": "1|46009|10|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2024-02-29T17:46:00+01:00",
+    "plannedWhen": "2024-02-29T17:46:00+01:00",
+    "delay": null,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "U Hönow",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "15186",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "214345",
+        "type": "warning",
+        "summary": ".Strike at BVG",
+        "text": "From Thursday to Friday 2 PM, U-Bahn, Tram and most bus lines will not be running. Please select only S-Bahn Trains and \"Regio\" in the app or website to find alternative S-Bahn and regional services. The BVG will be running again from 2 PM on Friday, but there may still be cancellations until the evening. Journeys that take place have real-time information (+ or - minutes).",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-29T03:00:00+01:00",
+        "validUntil": "2024-03-01T18:00:00+01:00",
+        "modified": "2024-02-29T12:41:32+01:00"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000161512",
+      "name": "U Friedrichsfelde",
+      "location": {
+        "type": "location",
+        "id": "900161512",
+        "latitude": 52.505462,
+        "longitude": 13.513547
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900161512"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.498199,
+      "longitude": 13.540523
+    }
+  },
+  {
+    "tripId": "1|46116|12|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2024-02-29T17:46:00+01:00",
+    "plannedWhen": "2024-02-29T17:46:00+01:00",
+    "delay": null,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S+U Berlin Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "14698",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "214345",
+        "type": "warning",
+        "summary": ".Strike at BVG",
+        "text": "From Thursday to Friday 2 PM, U-Bahn, Tram and most bus lines will not be running. Please select only S-Bahn Trains and \"Regio\" in the app or website to find alternative S-Bahn and regional services. The BVG will be running again from 2 PM on Friday, but there may still be cancellations until the evening. Journeys that take place have real-time information (+ or - minutes).",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-29T03:00:00+01:00",
+        "validUntil": "2024-03-01T18:00:00+01:00",
+        "modified": "2024-02-29T12:41:32+01:00"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160005",
+      "name": "U Magdalenenstr.",
+      "location": {
+        "type": "location",
+        "id": "900160005",
+        "latitude": 52.512456,
+        "longitude": 13.487496
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160005"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.515926,
+      "longitude": 13.452564
+    }
+  },
+  {
+    "tripId": "1|1998|10|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-02-29T17:48:00+01:00",
+    "plannedWhen": "2024-02-29T17:48:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Mahlsdorf",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "24138",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.512735,
+      "longitude": 13.576516
+    }
+  },
+  {
+    "tripId": "1|2310|23|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-02-29T17:48:00+01:00",
+    "plannedWhen": "2024-02-29T17:48:00+01:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Potsdam Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "24966",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.508087,
+      "longitude": 13.441831
+    }
+  },
+  {
+    "tripId": "1|18549|8|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2024-02-29T17:49:00+01:00",
+    "plannedWhen": "2024-02-29T17:49:00+01:00",
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "Waldesruh, Mahlsdorfer Allee",
+    "line": {
+      "type": "line",
+      "id": "108",
+      "fahrtNr": "29403",
+      "name": "108",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 108,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "214345",
+        "type": "warning",
+        "summary": ".Strike at BVG",
+        "text": "From Thursday to Friday 2 PM, U-Bahn, Tram and most bus lines will not be running. Please select only S-Bahn Trains and \"Regio\" in the app or website to find alternative S-Bahn and regional services. The BVG will be running again from 2 PM on Friday, but there may still be cancellations until the evening. Journeys that take place have real-time information (+ or - minutes).",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-29T03:00:00+01:00",
+        "validUntil": "2024-03-01T18:00:00+01:00",
+        "modified": "2024-02-29T12:41:32+01:00"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160015",
+      "name": "Löwenberger Str.",
+      "location": {
+        "type": "location",
+        "id": "900160015",
+        "latitude": 52.510721,
+        "longitude": 13.50631
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160015"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.51002,
+      "longitude": 13.540451
+    }
+  },
+  {
+    "tripId": "1|27908|0|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2024-02-29T17:49:00+01:00",
+    "plannedWhen": "2024-02-29T17:49:00+01:00",
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Ostbahnhof",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "41751",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "214345",
+        "type": "warning",
+        "summary": ".Strike at BVG",
+        "text": "From Thursday to Friday 2 PM, U-Bahn, Tram and most bus lines will not be running. Please select only S-Bahn Trains and \"Regio\" in the app or website to find alternative S-Bahn and regional services. The BVG will be running again from 2 PM on Friday, but there may still be cancellations until the evening. Journeys that take place have real-time information (+ or - minutes).",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-29T03:00:00+01:00",
+        "validUntil": "2024-03-01T18:00:00+01:00",
+        "modified": "2024-02-29T12:41:32+01:00"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160743",
+      "name": "Margaretenstr. [Ri. Lichtenberger Br.]",
+      "location": {
+        "type": "location",
+        "id": "900160743",
+        "latitude": 52.507575,
+        "longitude": 13.496854
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160743"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.501741,
+      "longitude": 13.478084
+    }
+  },
+  {
+    "tripId": "1|27949|3|86|29022024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2024-02-29T17:49:00+01:00",
+    "plannedWhen": "2024-02-29T17:49:00+01:00",
+    "delay": null,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": null,
+    "direction": null,
+    "provenance": "S Storkower Str.",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "41796",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "214345",
+        "type": "warning",
+        "summary": ".Strike at BVG",
+        "text": "From Thursday to Friday 2 PM, U-Bahn, Tram and most bus lines will not be running. Please select only S-Bahn Trains and \"Regio\" in the app or website to find alternative S-Bahn and regional services. The BVG will be running again from 2 PM on Friday, but there may still be cancellations until the evening. Journeys that take place have real-time information (+ or - minutes).",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": false,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "BVG",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-29T03:00:00+01:00",
+        "validUntil": "2024-03-01T18:00:00+01:00",
+        "modified": "2024-02-29T12:41:32+01:00"
+      },
+      {
+        "id": "216020",
+        "type": "warning",
+        "summary": "Public transport strikes",
+        "text": "Berlin: Subways, trams and most bus lines will not be running until Friday, 2 p.m. / Brandenburg: Warning strikes today in Ostprignitz-Ruppin, Friday in eight districts and the independent cities. S-Bahn, regional and long-distance trains are running. Info: <a href=\"http://www.vbb.de/streik\">www.vbb.de/streik</a> and <a href=\"http://www.bvg.de/streik\n\">www.bvg.de/streik\n</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-02-23T13:07:00+01:00",
+        "validUntil": "2024-03-01T23:59:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160537",
+      "name": "Einbecker Str./Rosenfelder Str.",
+      "location": {
+        "type": "location",
+        "id": "900160537",
+        "latitude": 52.509786,
+        "longitude": 13.503497
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160537"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.519477,
+      "longitude": 13.499299
+    }
+  }
+]
