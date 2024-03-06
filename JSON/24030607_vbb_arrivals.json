@@ -1,0 +1,2723 @@
+[
+  {
+    "tripId": "1|29080|7|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160020",
+      "name": "S+U Lichtenberg/Siegfriedstr.",
+      "location": {
+        "type": "location",
+        "id": "900160020",
+        "latitude": 52.511953,
+        "longitude": 13.497654
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160020"
+    },
+    "when": "2024-03-06T08:39:00+01:00",
+    "plannedWhen": "2024-03-06T08:36:00+01:00",
+    "delay": 180,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "Zentralfriedhof",
+    "line": {
+      "type": "line",
+      "id": "256",
+      "fahrtNr": "43094",
+      "name": "256",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 256,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160549",
+      "name": "Gernotstr.",
+      "location": {
+        "type": "location",
+        "id": "900160549",
+        "latitude": 52.51322,
+        "longitude": 13.50258
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160549"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.515458,
+      "longitude": 13.498607
+    }
+  },
+  {
+    "tripId": "1|46027|0|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2024-03-06T08:39:00+01:00",
+    "plannedWhen": "2024-03-06T08:36:00+01:00",
+    "delay": 180,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "U Hönow",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "15074",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000161512",
+      "name": "U Friedrichsfelde",
+      "location": {
+        "type": "location",
+        "id": "900161512",
+        "latitude": 52.505462,
+        "longitude": 13.513547
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900161512"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.511917,
+      "longitude": 13.493492
+    }
+  },
+  {
+    "tripId": "1|3703|0|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-03-06T08:40:00+01:00",
+    "plannedWhen": "2024-03-06T08:38:00+01:00",
+    "delay": 120,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "S Mahlsdorf",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "24515",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "216841",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Aufgrund des GDL-Streiks kommt es vom Donnerstag, 7. März, 2 Uhr bis Freitag, 8. März, 13 Uhr bundesweit zu Auswirkungen im Fern-, Regional- und S-Bahn Verkehr der DB. Wir bitten unsere Fahrgäste, sich 24 Stunden vor Fahrtantritt zu informieren, ob ihre Verbindung verfügbar ist.\n<a href=\"https://sbahn.berlin/\" target=\"_blank\" rel=\"noopener\">Weitere Informationen:</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 65,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-06T00:00:00+01:00",
+        "validUntil": "2024-03-06T23:59:00+01:00",
+        "modified": "2024-03-04T12:27:34+01:00"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.510838,
+      "longitude": 13.49867
+    }
+  },
+  {
+    "tripId": "1|1752|0|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-03-06T08:40:00+01:00",
+    "plannedWhen": "2024-03-06T08:40:00+01:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Westkreuz",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "22932",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216841",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Aufgrund des GDL-Streiks kommt es vom Donnerstag, 7. März, 2 Uhr bis Freitag, 8. März, 13 Uhr bundesweit zu Auswirkungen im Fern-, Regional- und S-Bahn Verkehr der DB. Wir bitten unsere Fahrgäste, sich 24 Stunden vor Fahrtantritt zu informieren, ob ihre Verbindung verfügbar ist.\n<a href=\"https://sbahn.berlin/\" target=\"_blank\" rel=\"noopener\">Weitere Informationen:</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 65,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-06T00:00:00+01:00",
+        "validUntil": "2024-03-06T23:59:00+01:00",
+        "modified": "2024-03-04T12:27:34+01:00"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.510227,
+      "longitude": 13.497546
+    }
+  },
+  {
+    "tripId": "1|27943|0|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2024-03-06T08:41:00+01:00",
+    "plannedWhen": "2024-03-06T08:40:00+01:00",
+    "delay": 60,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Storkower Str.",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "41790",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160537",
+      "name": "Einbecker Str./Rosenfelder Str.",
+      "location": {
+        "type": "location",
+        "id": "900160537",
+        "latitude": 52.509786,
+        "longitude": 13.503497
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160537"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.509921,
+      "longitude": 13.502823
+    }
+  },
+  {
+    "tripId": "1|2407|0|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-03-06T08:41:00+01:00",
+    "plannedWhen": "2024-03-06T08:41:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "S Wartenberg",
+    "line": {
+      "type": "line",
+      "id": "s75",
+      "fahrtNr": "25706",
+      "name": "S75",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 75,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216841",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Aufgrund des GDL-Streiks kommt es vom Donnerstag, 7. März, 2 Uhr bis Freitag, 8. März, 13 Uhr bundesweit zu Auswirkungen im Fern-, Regional- und S-Bahn Verkehr der DB. Wir bitten unsere Fahrgäste, sich 24 Stunden vor Fahrtantritt zu informieren, ob ihre Verbindung verfügbar ist.\n<a href=\"https://sbahn.berlin/\" target=\"_blank\" rel=\"noopener\">Weitere Informationen:</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 65,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-06T00:00:00+01:00",
+        "validUntil": "2024-03-06T23:59:00+01:00",
+        "modified": "2024-03-04T12:27:34+01:00"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.513454,
+      "longitude": 13.510985
+    }
+  },
+  {
+    "tripId": "1|58608|11|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2024-03-06T08:41:00+01:00",
+    "plannedWhen": "2024-03-06T08:42:00+01:00",
+    "delay": -60,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Karlshorst",
+    "line": {
+      "type": "line",
+      "id": "296",
+      "fahrtNr": "45443",
+      "name": "296",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 296,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160537",
+      "name": "Einbecker Str./Rosenfelder Str.",
+      "location": {
+        "type": "location",
+        "id": "900160537",
+        "latitude": 52.509786,
+        "longitude": 13.503497
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160537"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.510299,
+      "longitude": 13.501672
+    }
+  },
+  {
+    "tripId": "1|46044|0|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2024-03-06T08:42:00+01:00",
+    "plannedWhen": "2024-03-06T08:41:00+01:00",
+    "delay": 60,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "U Kaulsdorf-Nord",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "15076",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000161512",
+      "name": "U Friedrichsfelde",
+      "location": {
+        "type": "location",
+        "id": "900161512",
+        "latitude": 52.505462,
+        "longitude": 13.513547
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900161512"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.506236,
+      "longitude": 13.512819
+    }
+  },
+  {
+    "tripId": "1|56512|2|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-03-06T08:42:00+01:00",
+    "plannedWhen": "2024-03-06T08:41:00+01:00",
+    "delay": 60,
+    "platform": "20",
+    "plannedPlatform": "20",
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "S Schönefeld (bei Berlin)",
+    "line": {
+      "type": "line",
+      "id": "rb32",
+      "fahrtNr": "977",
+      "name": "RB32",
+      "public": true,
+      "adminCode": "800165",
+      "productName": "RB",
+      "mode": "train",
+      "product": "regional",
+      "operator": {
+        "type": "operator",
+        "id": "db-regio-ag",
+        "name": "DB Regio AG"
+      },
+      "symbol": "RB",
+      "nr": 32,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "type": "hint",
+        "code": "id",
+        "text": "Fahrzeuggebundene Einstiegshilfe vorhanden"
+      },
+      {
+        "id": "216846",
+        "type": "warning",
+        "summary": "Großstörung.",
+        "text": "Aufgrund des GDL-Streiks kommt es vom 07.03. bis 08.03. bundesweit zu Auswirkungen im Fern-, Regional- und S-Bahn Verkehr der DB. Wir bitten unsere Fahrgäste, sich 24 Stunden vor Fahrtantritt zu informieren, ob ihre Verbindung verfügbar ist. Weitere Informationen finden Sie unter <a href=\"http://www.bahn.de/aktuell\">www.bahn.de/aktuell</a>.\n<a href=\"https://bahn.de/aktuell\" target=\"_blank\" rel=\"noopener\">HiM</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 32,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-06T07:00:00+01:00",
+        "validUntil": "2024-03-07T07:00:00+01:00",
+        "modified": "2024-03-04T17:44:05+01:00"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000120003",
+      "name": "S Ostkreuz",
+      "location": {
+        "type": "location",
+        "id": "900120003",
+        "latitude": 52.503116,
+        "longitude": 13.469221
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900120003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.506002,
+      "longitude": 13.481401
+    }
+  },
+  {
+    "tripId": "1|46102|4|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2024-03-06T08:43:00+01:00",
+    "plannedWhen": "2024-03-06T08:43:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S+U Berlin Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "14587",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160005",
+      "name": "U Magdalenenstr.",
+      "location": {
+        "type": "location",
+        "id": "900160005",
+        "latitude": 52.512456,
+        "longitude": 13.487496
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160005"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.51367,
+      "longitude": 13.475127
+    }
+  },
+  {
+    "tripId": "1|29035|6|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160020",
+      "name": "S+U Lichtenberg/Siegfriedstr.",
+      "location": {
+        "type": "location",
+        "id": "900160020",
+        "latitude": 52.511953,
+        "longitude": 13.497654
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160020"
+    },
+    "when": "2024-03-06T08:44:00+01:00",
+    "plannedWhen": "2024-03-06T08:42:00+01:00",
+    "delay": 120,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "Siedlung Wartenberg/Str. 5",
+    "line": {
+      "type": "line",
+      "id": "256",
+      "fahrtNr": "43044",
+      "name": "256",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 256,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160526",
+      "name": "Fanningerstr.",
+      "location": {
+        "type": "location",
+        "id": "900160526",
+        "latitude": 52.514398,
+        "longitude": 13.498274
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160526"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.522461,
+      "longitude": 13.499479
+    }
+  },
+  {
+    "tripId": "1|1910|3|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-03-06T08:44:00+01:00",
+    "plannedWhen": "2024-03-06T08:43:00+01:00",
+    "delay": 60,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Hoppegarten",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "24063",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216841",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Aufgrund des GDL-Streiks kommt es vom Donnerstag, 7. März, 2 Uhr bis Freitag, 8. März, 13 Uhr bundesweit zu Auswirkungen im Fern-, Regional- und S-Bahn Verkehr der DB. Wir bitten unsere Fahrgäste, sich 24 Stunden vor Fahrtantritt zu informieren, ob ihre Verbindung verfügbar ist.\n<a href=\"https://sbahn.berlin/\" target=\"_blank\" rel=\"noopener\">Weitere Informationen:</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 65,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-06T00:00:00+01:00",
+        "validUntil": "2024-03-06T23:59:00+01:00",
+        "modified": "2024-03-04T12:27:34+01:00"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.515072,
+      "longitude": 13.545342
+    }
+  },
+  {
+    "tripId": "1|2423|9|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-03-06T08:44:00+01:00",
+    "plannedWhen": "2024-03-06T08:43:00+01:00",
+    "delay": 60,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Ostbahnhof",
+    "line": {
+      "type": "line",
+      "id": "s75",
+      "fahrtNr": "25535",
+      "name": "S75",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 75,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216841",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Aufgrund des GDL-Streiks kommt es vom Donnerstag, 7. März, 2 Uhr bis Freitag, 8. März, 13 Uhr bundesweit zu Auswirkungen im Fern-, Regional- und S-Bahn Verkehr der DB. Wir bitten unsere Fahrgäste, sich 24 Stunden vor Fahrtantritt zu informieren, ob ihre Verbindung verfügbar ist.\n<a href=\"https://sbahn.berlin/\" target=\"_blank\" rel=\"noopener\">Weitere Informationen:</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 65,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-06T00:00:00+01:00",
+        "validUntil": "2024-03-06T23:59:00+01:00",
+        "modified": "2024-03-04T12:27:34+01:00"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.503071,
+      "longitude": 13.468807
+    }
+  },
+  {
+    "tripId": "1|61614|7|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160020",
+      "name": "S+U Lichtenberg/Siegfriedstr.",
+      "location": {
+        "type": "location",
+        "id": "900160020",
+        "latitude": 52.511953,
+        "longitude": 13.497654
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160020"
+    },
+    "when": "2024-03-06T08:45:00+01:00",
+    "plannedWhen": "2024-03-06T08:45:00+01:00",
+    "delay": 0,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "S+U Lichtenberg/Gudrunstr.",
+    "line": {
+      "type": "line",
+      "id": "21",
+      "fahrtNr": "294",
+      "name": "21",
+      "public": true,
+      "adminCode": "BVT",
+      "productName": "Tram",
+      "mode": "train",
+      "product": "tram",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 21,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160021",
+      "name": "S+U Lichtenberg/Gudrunstr.",
+      "location": {
+        "type": "location",
+        "id": "900160021",
+        "latitude": 52.512366,
+        "longitude": 13.500063
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": true,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160021"
+    },
+    "destination": null
+  },
+  {
+    "tripId": "1|2184|5|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-03-06T08:46:00+01:00",
+    "plannedWhen": "2024-03-06T08:46:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Ahrensfelde",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "24790",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216841",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Aufgrund des GDL-Streiks kommt es vom Donnerstag, 7. März, 2 Uhr bis Freitag, 8. März, 13 Uhr bundesweit zu Auswirkungen im Fern-, Regional- und S-Bahn Verkehr der DB. Wir bitten unsere Fahrgäste, sich 24 Stunden vor Fahrtantritt zu informieren, ob ihre Verbindung verfügbar ist.\n<a href=\"https://sbahn.berlin/\" target=\"_blank\" rel=\"noopener\">Weitere Informationen:</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 65,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-06T00:00:00+01:00",
+        "validUntil": "2024-03-06T23:59:00+01:00",
+        "modified": "2024-03-04T12:27:34+01:00"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.526425,
+      "longitude": 13.536694
+    }
+  },
+  {
+    "tripId": "1|46027|1|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2024-03-06T08:46:00+01:00",
+    "plannedWhen": "2024-03-06T08:46:00+01:00",
+    "delay": 0,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "U Hönow",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "15075",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000161512",
+      "name": "U Friedrichsfelde",
+      "location": {
+        "type": "location",
+        "id": "900161512",
+        "latitude": 52.505462,
+        "longitude": 13.513547
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900161512"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.4997,
+      "longitude": 13.546573
+    }
+  },
+  {
+    "tripId": "1|2216|3|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-03-06T08:47:00+01:00",
+    "plannedWhen": "2024-03-06T08:38:00+01:00",
+    "delay": 540,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Potsdam Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "24617",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216841",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Aufgrund des GDL-Streiks kommt es vom Donnerstag, 7. März, 2 Uhr bis Freitag, 8. März, 13 Uhr bundesweit zu Auswirkungen im Fern-, Regional- und S-Bahn Verkehr der DB. Wir bitten unsere Fahrgäste, sich 24 Stunden vor Fahrtantritt zu informieren, ob ihre Verbindung verfügbar ist.\n<a href=\"https://sbahn.berlin/\" target=\"_blank\" rel=\"noopener\">Weitere Informationen:</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 65,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-06T00:00:00+01:00",
+        "validUntil": "2024-03-06T23:59:00+01:00",
+        "modified": "2024-03-04T12:27:34+01:00"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.507863,
+      "longitude": 13.442523
+    }
+  },
+  {
+    "tripId": "1|27903|9|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2024-03-06T08:48:00+01:00",
+    "plannedWhen": "2024-03-06T08:47:00+01:00",
+    "delay": 60,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Ostbahnhof",
+    "line": {
+      "type": "line",
+      "id": "240",
+      "fahrtNr": "41746",
+      "name": "240",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 240,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160743",
+      "name": "Margaretenstr. [Ri. Lichtenberger Br.]",
+      "location": {
+        "type": "location",
+        "id": "900160743",
+        "latitude": 52.507575,
+        "longitude": 13.496854
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160743"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.501921,
+      "longitude": 13.480502
+    }
+  },
+  {
+    "tripId": "1|1997|5|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-03-06T08:48:00+01:00",
+    "plannedWhen": "2024-03-06T08:48:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S Mahlsdorf",
+    "line": {
+      "type": "line",
+      "id": "s5",
+      "fahrtNr": "24149",
+      "name": "S5",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216841",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Aufgrund des GDL-Streiks kommt es vom Donnerstag, 7. März, 2 Uhr bis Freitag, 8. März, 13 Uhr bundesweit zu Auswirkungen im Fern-, Regional- und S-Bahn Verkehr der DB. Wir bitten unsere Fahrgäste, sich 24 Stunden vor Fahrtantritt zu informieren, ob ihre Verbindung verfügbar ist.\n<a href=\"https://sbahn.berlin/\" target=\"_blank\" rel=\"noopener\">Weitere Informationen:</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 65,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-06T00:00:00+01:00",
+        "validUntil": "2024-03-06T23:59:00+01:00",
+        "modified": "2024-03-04T12:27:34+01:00"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000171002",
+      "name": "S Friedrichsfelde Ost",
+      "location": {
+        "type": "location",
+        "id": "900171002",
+        "latitude": 52.513535,
+        "longitude": 13.519075
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": true,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900171002"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.512753,
+      "longitude": 13.575348
+    }
+  },
+  {
+    "tripId": "1|46134|4|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160701",
+      "name": "S+U Lichtenberg [U5]",
+      "location": {
+        "type": "location",
+        "id": "900160701",
+        "latitude": 52.511135,
+        "longitude": 13.498499
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": false,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160701"
+    },
+    "when": "2024-03-06T08:48:00+01:00",
+    "plannedWhen": "2024-03-06T08:48:00+01:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "S+U Berlin Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "u5",
+      "fahrtNr": "14588",
+      "name": "U5",
+      "public": true,
+      "adminCode": "BVU",
+      "productName": "U",
+      "mode": "train",
+      "product": "subway",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": "U",
+      "nr": 5,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160005",
+      "name": "U Magdalenenstr.",
+      "location": {
+        "type": "location",
+        "id": "900160005",
+        "latitude": 52.512456,
+        "longitude": 13.487496
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160005"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.518083,
+      "longitude": 13.431529
+    }
+  },
+  {
+    "tripId": "1|18537|1|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160702",
+      "name": "S+U Lichtenberg [Bus]",
+      "location": {
+        "type": "location",
+        "id": "900160702",
+        "latitude": 52.510389,
+        "longitude": 13.49947
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160702"
+    },
+    "when": "2024-03-06T08:49:00+01:00",
+    "plannedWhen": "2024-03-06T08:47:00+01:00",
+    "delay": 120,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "calculated",
+    "direction": null,
+    "provenance": "Waldesruh, Mahlsdorfer Allee",
+    "line": {
+      "type": "line",
+      "id": "108",
+      "fahrtNr": "29391",
+      "name": "108",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 108,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160015",
+      "name": "Löwenberger Str.",
+      "location": {
+        "type": "location",
+        "id": "900160015",
+        "latitude": 52.510721,
+        "longitude": 13.50631
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160015"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.509633,
+      "longitude": 13.547616
+    }
+  },
+  {
+    "tripId": "1|2308|2|86|6032024",
+    "stop": {
+      "type": "stop",
+      "id": "900000160004",
+      "name": "S+U Lichtenberg",
+      "location": {
+        "type": "location",
+        "id": "900160004",
+        "latitude": 52.510676,
+        "longitude": 13.498355
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900160004"
+    },
+    "when": "2024-03-06T08:50:00+01:00",
+    "plannedWhen": "2024-03-06T08:48:00+01:00",
+    "delay": 120,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "prognosed",
+    "direction": null,
+    "provenance": "S Potsdam Hauptbahnhof",
+    "line": {
+      "type": "line",
+      "id": "s7",
+      "fahrtNr": "25000",
+      "name": "S7",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 7,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Bicycle conveyance"
+      },
+      {
+        "id": "216841",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Aufgrund des GDL-Streiks kommt es vom Donnerstag, 7. März, 2 Uhr bis Freitag, 8. März, 13 Uhr bundesweit zu Auswirkungen im Fern-, Regional- und S-Bahn Verkehr der DB. Wir bitten unsere Fahrgäste, sich 24 Stunden vor Fahrtantritt zu informieren, ob ihre Verbindung verfügbar ist.\n<a href=\"https://sbahn.berlin/\" target=\"_blank\" rel=\"noopener\">Weitere Informationen:</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 65,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-06T00:00:00+01:00",
+        "validUntil": "2024-03-06T23:59:00+01:00",
+        "modified": "2024-03-04T12:27:34+01:00"
+      },
+      {
+        "id": "216838",
+        "type": "warning",
+        "summary": "Strike at DB incl. S-Bahn from Thursday, 2 a.m., to Friday, 1 p.m.",
+        "text": "Due to a strike against Deutsche Bahn, there will be considerable restrictions on S-Bahn, regional and long-distance services. Underground trains, trams, buses and ferries are running.\n",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 100,
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": true,
+          "express": true,
+          "regional": true
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-03-04T00:00:00+01:00",
+        "validUntil": "2024-03-08T13:30:00+01:00"
+      }
+    ],
+    "origin": {
+      "type": "stop",
+      "id": "900000160003",
+      "name": "S Nöldnerplatz",
+      "location": {
+        "type": "location",
+        "id": "900160003",
+        "latitude": 52.50344,
+        "longitude": 13.484296
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900160003"
+    },
+    "destination": null,
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.514218,
+      "longitude": 13.419502
+    }
+  }
+]
